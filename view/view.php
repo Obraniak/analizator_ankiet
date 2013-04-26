@@ -1,51 +1,13 @@
 <?php
-/**
+
  
 /**
- * This class includes methods for controllers.
+ * This class includes methods for views.
  *
  * @abstract
  */
-abstract class Controller{
+abstract class View{
  
-    /**
-     * It redirects URL.
-     *
-     * @param string $url URL to redirect
-     *
-     * @return void
-     */
-    public function redirect($url) {
-        header("location: ".$url);
-    }
-    /**
-     * It loads the object with the view.
-     *
-     * @param string $name name class with the class
-     * @param string $path pathway to the file with the class
-     *
-     * @return object
-     */
-    public function loadView($name, $path='view/') {
-        $path=$path.$name.'.php';
-        $name=$name.'View';
-        try {
-            if(is_file($path)) {
-                require $path;
-                $ob=new $name();
-            } else {
-                throw new Exception('Can not open view '.$name.' in: '.$path);
-            }
-        }
-        catch(Exception $e) {
-            echo $e->getMessage().'<br />
-                File: '.$e->getFile().'<br />
-                Code line: '.$e->getLine().'<br />
-                Trace: '.$e->getTraceAsString();
-            exit;
-        }
-        return $ob;
-    }
     /**
      * It loads the object with the model.
      *
@@ -74,5 +36,50 @@ abstract class Controller{
         }
         return $ob;
     }
+    /**
+     * It includes template file.
+     *
+     * @param string $name name template file
+     * @param string $path pathway
+     *
+     * @return void
+     */
+    public function render($name, $path='templates/') {
+        $path=$path.$name.'.html.php';
+        try {
+            if(is_file($path)) {
+                require $path;
+            } else {
+                throw new Exception('Can not open template '.$name.' in: '.$path);
+            }
+        }
+        catch(Exception $e) {
+            echo $e->getMessage().'<br />
+                File: '.$e->getFile().'<br />
+                Code line: '.$e->getLine().'<br />
+                Trace: '.$e->getTraceAsString();
+            exit;
+        }
+    }
+    /**
+     * It sets data.
+     *
+     * @param string $name
+     * @param mixed $value
+     *
+     * @return void
+     */
+    public function set($name, $value) {
+        $this->$name=$value;
+    }
+    /**
+     * It gets data.
+     *
+     * @param string $name
+     *
+     * @return mixed
+     */
+    public function get($name) {
+        return $this->$name;
+    }
 }
-?>
