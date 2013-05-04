@@ -7,11 +7,15 @@ class Home extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
-		$this -> load -> helper('URL');
+
+		$this -> load -> model('Form_model');
+
+		$data = array('user' => $this -> session -> userdata('login'), 
+					  'form_list' => $this -> Form_model -> getTestForm());
 
 		$this -> load -> view('head_view');
 		$this -> load -> view('header_view');
-		$this -> load -> view('home_view');
+		$this -> load -> view('home_view', $data);
 		$this -> load -> view('footer_view');
 
 	}
