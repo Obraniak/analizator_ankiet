@@ -4,8 +4,11 @@
 		<title>Login</title>
 	</head>
 	<body>
-		<h1>Jednolity system obs³ugi ankiet</h1>
-		<h2>Politechnika Wroc³awska</h2>
+		<div class="header_pwr">
+			<img alt="PwrImage" class="header_pwr_image" />
+			<a class="header_pwr_title">Jednolity system obs³ugi studenta</a
+			<a class="header_pwr_name">Politechnika wroc³awska</a>
+		</div>
 		<?php echo form_open('authentication'); ?>
 		<label for="username">Login:</label>
 		<input type="text" size="20" id="username" name="username"/>
