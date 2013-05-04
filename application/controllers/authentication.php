@@ -6,15 +6,15 @@ class Authentication extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
-		$this->load->helper('URL');
+		$this -> load -> helper('URL');
 	}
 
 	function index() {
 		//This method will have the credentials validation
 
-		if (TRUE) {
+		if (FALSE) {
 			//Field validation failed.&nbsp; User redirected to login page
-			$this -> load -> view('login_view');
+			redirect('/login/index');
 		} else {
 			$username = 'Test';
 			//Go to private area

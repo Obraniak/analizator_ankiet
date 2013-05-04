@@ -7,9 +7,12 @@ class Home extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
-
-		$this -> load -> view('home_view');
 		$this -> load -> helper('URL');
+
+		$this -> load -> view('head_view');
+		$this -> load -> view('header_view');
+		$this -> load -> view('home_view');
+		$this -> load -> view('footer_view');
 
 	}
 
