@@ -2,9 +2,9 @@
 	<?php echo 'Użytkownik zalogowany jako ' . $user; ?>
 
 	<div>
-		<?php foreach ($form_list as $form ): ?>
-		<?php anchor('/form/start/id/' . $form -> id, $form -> name); ?>
-		<br />
-		<?php endforeach; ?>
+		<?php foreach ($form_list as $form ): 
+		 anchor('/form/start/id/' . $form -> id, $form -> name);
+		echo '<br />';
+		endforeach; ?>
 	</div>
 </div>

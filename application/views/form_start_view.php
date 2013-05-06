@@ -5,7 +5,7 @@
 	<div>
 		<?php foreach ($form_question_list as $question ):
 		?>
-		<?= anchor('/form/item/id/' . $question -> id, $question -> text); ?>
+		<?php anchor('/form/item/id/' . $question -> id, $question -> text); ?>
 		<br />
 		<?php endforeach; ?>
 	</div>
