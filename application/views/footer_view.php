@@ -1,5 +1,6 @@
 <footer class="app_footer">
-	<a> Projektowanie systemÛw informatycznych Marcin Burgknap &amp; Pawe≥ Obraniak</a>
+	<p class="copyright"> Projektowanie system√≥w informatycznych Marcin Burgknap &amp; Pawe≈Ç Obraniak</p>
 </footer>
+</div> <!-- end wrapper -->
 </body>
 </html>
