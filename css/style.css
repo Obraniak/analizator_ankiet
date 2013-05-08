@@ -1,7 +1,5 @@
 /* Autor: Paweł Obraniak
  * 
- * 
- * 
  */
 body {
     background-color: #666;
@@ -85,5 +83,5 @@ body {
    }
 .button:active {
    border-top-color: #ffffff;
-   background: #ffffff;
+   background: #d18677;
    }
