@@ -10,10 +10,10 @@
 				<?php echo lang('course') . $form_course; ?>
 			</p>
 			<p>
-				<?php echo lang('title')  . $form_title; ?>
+				<?php echo lang('title') . $form_title; ?>
 			</p>
 			<p>
-				<?php echo lang('remarks')  . $form_description; ?>
+				<?php echo lang('remarks') . $form_description; ?>
 			</p>
 		</div>
 		<center>
@@ -38,7 +38,7 @@
 					<?php 	echo '</form>'; ?>
 				</tr>
 			</table>
-			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powr�t do listy ankiet</a></td>'; ?>
+			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
 		</center>
 
 	</div>

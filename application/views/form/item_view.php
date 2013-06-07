@@ -3,6 +3,6 @@
 		<?php echo $form_question -> name; ?>
 	</p>
 	<p>
-		<?php echo 'Pytanie ' . $form_question -> question; ?>
+		<?php echo lang('question') . $form_question -> question; ?>
 	</p>
 </div>

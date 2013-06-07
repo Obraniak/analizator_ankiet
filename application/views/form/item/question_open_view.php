@@ -30,11 +30,11 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 	}
 
 	function onSuccess() {
-		alert('Zmiany zapisane');
+		alert('<?php echo lang('change_save'); ?>');
 	}
 
 	function onError() {
-		alert('Wystapi� problem');
+		alert('<?php echo lang('error_occured'); ?>')
 	}
 
 	</script>
@@ -42,7 +42,7 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 	<div>
 		<input style="width: 100px; height: 40px;" type="text" name="answer" id="txtAnswer" value="">
 		<button type="button"  id="btnSave" style="btnSave" onclick="saveChanges();">
-			Zapisz
+			<?php echo lang('save'); ?>
 		</button>
 	</div>
 	<center>
@@ -67,6 +67,6 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Wróć do listy ankiet</a></td>'; ?>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
 	</center>
 </div>

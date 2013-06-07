@@ -20,5 +20,15 @@ $lang['user_loged'] = 'Log as ';
 $lang['goto'] = 'Go to';
 $lang['logout'] = 'Logout';
 $lang['dologin'] = 'Login';
-
+$lang['title'] = 'Title';
+$lang['remarks'] = 'Remarks';
+$lang['back_to_home'] = 'Back to questionarie list';
+$lang['question'] = 'Question';
+$lang['summary'] = 'Summary ';
+$lang['complete_level'] = 'Complete level ';
+$lang['open_question'] = 'Open question ';
+$lang['close_question'] = 'Close question ';
+$lang['save'] = 'Save';
+$lang['change_save'] = 'Change saved';
+$lang['error_occured'] = 'Error occured';
 ?>

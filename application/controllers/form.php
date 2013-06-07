@@ -10,10 +10,17 @@ class Form extends CI_Controller {
 	}
 
 	function index() {
+
+		$this -> lang -> is_loaded = array();
+		$this -> lang -> load('psi', $this -> session -> userdata('user_lang'));
+
 		$username = $this -> session -> userdata('login');
 	}
 
 	function start() {
+
+		$this -> lang -> is_loaded = array();
+		$this -> lang -> load('psi', $this -> session -> userdata('user_lang'));
 
 		$param = $this -> uri -> uri_to_assoc(3);
 
@@ -25,6 +32,9 @@ class Form extends CI_Controller {
 	}
 
 	function item() {
+
+		$this -> lang -> is_loaded = array();
+		$this -> lang -> load('psi', $this -> session -> userdata('user_lang'));
 
 		parse_str($_SERVER['QUERY_STRING'], $param);
 
@@ -76,7 +86,7 @@ class Form extends CI_Controller {
 		$this -> load -> model('Form_model');
 
 		$form = $this -> Form_model -> getTestForm($id);
-		
+
 		$summary = $this -> Form_model -> getTestFormSummary($id);
 
 		$data['form_name'] = $form -> name;
@@ -121,6 +131,9 @@ class Form extends CI_Controller {
 	}
 
 	function end() {
+
+		$this -> lang -> is_loaded = array();
+		$this -> lang -> load('psi', $this -> session -> userdata('user_lang'));
 
 		$this -> firstItem($this -> session -> userdata('current_form_id'));
 	}

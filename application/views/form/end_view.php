@@ -4,16 +4,16 @@
 		<?php echo $form_name; ?>
 	</p>
 
-	<h3> Podsumowanie </h3>
+	<h3><?php echo lang('summary'); ?></h3>
 
 	<p>
-		Poziom	ukonczenia
+		<?php echo lang('complete_level'); ?>
 	</p>
 	<p>
-		<?php echo 'Pytania otwarte ' . $answer_open_question . ' / ' . $open_question_count; ?>
+		<?php echo lang('open_question') . $answer_open_question . ' / ' . $open_question_count; ?>
 	</p>
 	<p>
-		<?php echo 'Pytania otwarte ' . $answer_close_question . ' / ' . $close_question_count; ?>
+		<?php echo lang('close_question') . $answer_close_question . ' / ' . $close_question_count; ?>
 	</p>
 	<center>
 		<table border="1" >
@@ -37,6 +37,6 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Wróć do listy ankiet</a></td>'; ?>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
 	</center>
 </div>
