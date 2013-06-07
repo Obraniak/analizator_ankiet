@@ -1,14 +1,15 @@
 <div class="app_content">
 	<?php echo '<script src="' . base_url('js/script.js') . '"></script>'; ?>
-<?php echo '<script src="' . base_url('js/open.js') . '"></script>'; ?>
+<?php echo '<script src="' . base_url('js/jquery-1.9.1.min.js') . '"></script>'; ?>
+
 	<div>
 		<?php echo '<form id="navi" action="' . site_url('/form/update?item=' . $form_question_detail -> id) . '" method="post">'; ?>
 		<input style="width: 100px; height: 40px;" type="text" name="answer" value="">
-		<input type="submit" value="Zapisz" onclick="return false;">
+		<input type="submit" value="Zapisz" >
 		<?php echo '</form>'; ?>
 	</div>
 	<center>
-		<table border="1">
+		<table border="1" class="test">
 			<tr>
 				<?php echo '<form id="navi" action="' . site_url('/form/item') . '">'; ?>
 				<td>
@@ -29,5 +30,6 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powrót do listy ankiet</a></td>'; ?>
 	</center>
 </div>

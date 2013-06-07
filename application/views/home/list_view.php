@@ -2,20 +2,20 @@
 	<?php echo 'Użytkownik zalogowany jako ' . $user; ?>
 
 	<div>
-		<table border="1">
+		<table border="1" class="kursy">
 			<tr>
 				<?php echo '<form action="' . site_url('/home/search') . '">'; ?>
 				<td>
-				<input type="text" name="cource">
+				<input type="text" name="fcource">
 				</td>
 				<td>
-				<input type="text" name="name">
+				<input type="text" name="lname">
 				</td>
 				<td>
-				<input type="text" name="date">
+				<input type="text" name="ldate">
 				</td>
 				<td>
-				<input type="text" name="staus">
+				<input type="text" name="lstaus">
 				</td>
 				<td>
 				<input type="submit" value="Szukaj">
@@ -30,15 +30,15 @@
 				<td>Akcja</td>
 			</tr>
 			<?php
-			foreach ($form_list as $form) {
-				echo '<tr>';
-				echo '<td>' . $form -> course . '</td>';
-				echo '<td>' . $form -> name . '</td>';
-				echo '<td>' . $form -> date . '</td>';
-				echo '<td>' . $form -> status . '</td>';
-				echo '<td><a href="' . site_url('/form/start/id/' . $form -> id) . '">Przejdz</a></td>';
-				echo "</tr>";
-			}
+				foreach ($form_list as $form) {
+					echo '<tr>';
+					echo '<td>' . $form -> course . '</td>';
+					echo '<td>' . $form -> name . '</td>';
+					echo '<td>' . $form -> date . '</td>';
+					echo '<td>' . $form -> status . '</td>';
+					echo '<td><a class="btnakcja" href="' . site_url('/form/start/id/' . $form -> id) . '">Przejdz</a></td>';
+					echo "</tr>";
+				}
 			?>
 		</table>
 	</div>

@@ -38,6 +38,7 @@
 					<?php 	echo '</form>'; ?>
 				</tr>
 			</table>
+			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powrót do listy ankiet</a></td>'; ?>
 		</center>
 
 	</div>
