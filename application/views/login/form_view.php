@@ -14,7 +14,7 @@
 			</tr>
 			<tr>
 				<td class="btn">
-				<input type="submit" value="Zaloguj"/ class="button">
+				<input type="submit" value="<?php echo lang('dologin'); ?>"/ class="button">
 				</td>
 			</tr>
 		</table>

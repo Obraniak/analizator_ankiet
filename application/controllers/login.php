@@ -12,12 +12,14 @@ class Login extends CI_Controller {
 		$tmp = $this -> session -> userdata('user_lang');
 
 		if (!isset($tmp)) {
-			$this -> session -> set_userdata('user_lang', 'pl');
+
 		} else {
 			parse_str($_SERVER['QUERY_STRING'], $param);
 
 			if (isset($param) && array_key_exists('lang', $param)) {
-				$this -> session -> set_userdata('user_lang', $param['lang']);
+				if ($param['lang'] != "-") {
+					$this -> session -> set_userdata('user_lang', $param['lang']);
+				}
 			}
 		}
 
@@ -34,15 +36,6 @@ class Login extends CI_Controller {
 		$this -> load -> view('login/form_view', $data);
 		$this -> load -> view('base/footer_view');
 
-	}
-
-	function changelang() {
-
-		if ($this -> session -> userdata('user_lang') == 'pl') {
-			$this -> session -> set_userdata('user_lang', 'en');
-		} else {
-			$this -> session -> set_userdata('user_lang', 'pl');
-		}
 	}
 
 }

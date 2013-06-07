@@ -8,6 +8,9 @@ class Home extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 
+		$this -> lang -> is_loaded = array();
+		$this -> lang -> load('psi', $this -> session -> userdata('user_lang'));
+
 		$this -> load -> model('Form_model');
 
 		$data = array('user' => $this -> session -> userdata('login'), 'form_list' => $this -> Form_model -> getTestForms());
