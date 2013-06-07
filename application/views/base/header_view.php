@@ -1,8 +1,10 @@
 <div id="wrapper">
 <div id="header">
 	<!--<div id="pwrlogo"></div> -->
-	<h3><?php echo lang('university'); ?></h3>
+	<div id="slogan">
+    <h1><?php echo lang('university'); ?></h1>
 	<h3><?php echo lang('project'); ?></h3>
+    </div>
 </div>
 
 
