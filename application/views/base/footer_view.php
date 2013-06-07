@@ -1,5 +1,5 @@
 <footer class="app_footer">
-	<p class="copyright"> Projektowanie systemów informatycznych Marcin Burgknap &amp; Paweł Obraniak</p>
+	<p class="copyright"><?php echo lang('app_footer'); ?></p>
 </footer>
 </div> <!-- end wrapper -->
 </body>
