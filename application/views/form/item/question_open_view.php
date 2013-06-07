@@ -42,7 +42,7 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 	<div id="question">
     <table>
       <tr>
-        <td><input style="width: 500px; height: 100px;" type="text" name="answer" id="txtAnswer" value=""></td>
+        <td><textarea name="answer" id="txtAnswer" style="width: 500px; height: 100px;"></textarea></td>
       </tr>
       <tr>
         <td>
