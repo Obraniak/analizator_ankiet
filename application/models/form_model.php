@@ -1,5 +1,5 @@
 <?php
-require_once ('form_data.php');
+require_once ('data_entity.php');
 /**
  *
  */
@@ -9,7 +9,7 @@ class Form_model extends  CI_Model {
 		parent::__construct();
 	}
 
-	public function getTestForm() {
+	public function getTestForms() {
 
 		$res = array();
 
@@ -52,30 +52,46 @@ class Form_model extends  CI_Model {
 		return $res;
 	}
 
-	public function getTestFormQustions($id) {
+	public function getTestForm($id) {
+
+		$tmp = new FormDetailData();
+		$tmp -> id = "001";
+		$tmp -> name = "Ankieta 4";
+		$tmp -> course = 'Analiza matematyczna 2';
+		$tmp -> title = 'Ocena jakosci ksztalcenia';
+		$tmp -> description = 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety';
+
+		return $tmp;
+	}
+
+	public function getTestFormQustions() {
 
 		$res = array();
 
 		$tmp = new FormQuestionData();
-		$tmp -> text = 'Pytanie 1';
+		$tmp -> name = 'Ankieta 1';
+		$tmp -> question = 'Co sadzisz na temat przedmiotu ?';
 		$tmp -> id = '001';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormQuestionData();
-		$tmp -> text = 'Pytanie 2';
+		$tmp -> name = 'Ankieta 2';
+		$tmp -> question = 'Co sadzisz na temat prowadz±cego ?';
 		$tmp -> id = '002';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormQuestionData();
-		$tmp -> text = 'Pytanie 3';
+		$tmp -> name = 'Ankieta 3';
+		$tmp -> question = 'Co sadzisz na temat zadañ ?';
 		$tmp -> id = '003';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormQuestionData();
-		$tmp -> text = 'Pytanie 4';
+		$tmp -> name = 'Ankieta 4';
+		$tmp -> question = 'Co sadzisz na temat kolokwium ?';
 		$tmp -> id = '004';
 
 		array_push($res, $tmp);
@@ -83,24 +99,21 @@ class Form_model extends  CI_Model {
 		return $res;
 	}
 
-	public function getTestFormQustionsDetails($id) {
+	public function getTestFormQustion($id) {
 
 		$tmp = new FormQuestionData();
+		$tmp -> name = 'Ankieta 1';
+		$tmp -> question = 'Co sadzisz na temat przedmiotu ?';
+		$tmp -> type = 1;
+		$tmp -> id = '001';
 
-		switch ($id) {
-			case '001' :
-				$tmp -> text = 'Pytanie otwarte: Jak oceniasz warto¶æ merytoryczna przedmiotu :) ?';
-				break;
-			case '002' :
-				$tmp -> text = 'Pytanie otwarte: Czy jestes zadowolny z kierunku :) ?';
-				break;
-			case '003' :
-				$tmp -> text = 'Pytanie otwarte: Co bys zmieni³ w toku nauczania ?';
-				break;
-			default :
-				$tmp -> text = 'Pytanie otwarte: Co oceniasz negatwnie ?';
-				break;
-		}
+		return $tmp;
+	}
+
+	public function getTestFormQustionsDetail($id) {
+
+		$tmp = new FormQuestionDetailsData();
+		$tmp -> id = "001";
 
 		return $tmp;
 	}

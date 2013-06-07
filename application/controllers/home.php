@@ -10,13 +10,14 @@ class Home extends CI_Controller {
 
 		$this -> load -> model('Form_model');
 
-		$data = array('user' => $this -> session -> userdata('login'), 
-					  'form_list' => $this -> Form_model -> getTestForm());
+		$data = array('user' => $this -> session -> userdata('login'), 'form_list' => $this -> Form_model -> getTestForms());
 
-		$this -> load -> view('head_view');
-		$this -> load -> view('header_view');
-		$this -> load -> view('home_view', $data);
-		$this -> load -> view('footer_view');
+		$this -> load -> view('base/head_view');
+		$this -> load -> view('base/header_view');
+		$this -> load -> view('home/list_view', $data);
+		$this -> load -> view('base/footer_view');
+
+		log_message('DEBUG', 'test');
 
 	}
 
@@ -27,7 +28,7 @@ class Home extends CI_Controller {
 	function logout() {
 
 	}
-	
+
 	function search() {
 	}
 

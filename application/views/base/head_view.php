@@ -3,6 +3,5 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title><?php echo "Jednolity System Obsługi Studenta - Analizator Ankiet" ?></title>
-		<link type="text/css" rel="stylesheet" href="<?php echo str_replace('index.php/', '', site_url('css/style.css')); ?>" />
-	</head>
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url('css/style.css'); ?>" />
 	<body>

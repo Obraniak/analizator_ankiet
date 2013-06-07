@@ -10,10 +10,10 @@ class Login extends CI_Controller {
 		$this -> load -> helper('URL');
 		$this -> load -> helper(array('form'));
 
-		$this -> load -> view('head_view');
-		$this -> load -> view('header_view');
-		$this -> load -> view('login_view');
-		$this -> load -> view('footer_view');
+		$this -> load -> view('base/head_view');
+		$this -> load -> view('base/header_view');
+		$this -> load -> view('login/form_view');
+		$this -> load -> view('base/footer_view');
 
 	}
 
