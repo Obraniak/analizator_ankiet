@@ -43,7 +43,7 @@
 				echo '<td>' . $form -> name . '</td>';
 				echo '<td>' . $form -> date . '</td>';
 				echo '<td>' . $form -> status . '</td>';
-				echo '<td><a class="btnakcja" href="' . site_url('/form/start/id/' . $form -> id) . '">' . lang('goto') . '</a></td>';
+				echo '<td><a class="button" href="' . site_url('/form/start/id/' . $form -> id) . '">' . lang('goto') . '</a></td>';
 				echo "</tr>";
 			}
 			?>
