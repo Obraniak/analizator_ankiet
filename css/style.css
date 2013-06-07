@@ -1,10 +1,11 @@
+@charset "utf-8";
 /* Autor: Paweł Obraniak
  * 
  */
 body {
     background-color: #666;
     font-family:      Arial, sans-serif;
-    font-size:        small;
+    font-size:        14px;
     margin:           0px;
 }
 
