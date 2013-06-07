@@ -30,6 +30,6 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powr�t do listy ankiet</a></td>'; ?>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Wróć do listy ankiet</a></td>'; ?>
 	</center>
 </div>
