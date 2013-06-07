@@ -15,8 +15,8 @@
 	<p>
 		<?php echo lang('close_question') . $answer_close_question . ' / ' . $close_question_count; ?>
 	</p>
-	<center>
-		<table border="1" >
+
+		<table class="bottomnav"
 			<tr>
 				<?php echo '<form id="navi" action="' . site_url('/form/item') . '">'; ?>
 				<td>
@@ -38,5 +38,5 @@
 			</tr>
 		</table>
 		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
-	</center>
+
 </div>

@@ -16,8 +16,8 @@
 				<?php echo lang('remarks') . $form_description; ?>
 			</p>
 		</div>
-		<center>
-			<table border="1">
+
+			<table class="bottomnav">
 				<tr>
 					<?php echo '<form id="navi" action="' . site_url('/form/item/detail') . '">'; ?>
 					<td>
@@ -38,8 +38,8 @@
 					<?php 	echo '</form>'; ?>
 				</tr>
 			</table>
-			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
-		</center>
+			<?php	echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>'; ?>
+
 
 	</div>
 

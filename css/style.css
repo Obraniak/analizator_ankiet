@@ -90,6 +90,14 @@ body {
 table.kursy td{
 	padding: 10px 5px;
 }
+
+table.bottomnav {
+	margin-left:auto;
+	margin-right:auto;
+}
+#bottombtn {
+	margin-left:580px;
+}
 .button, .btnakcja, .btnBackToHome {
    border-top: 1px solid #611506;
    background: #bf5945;
@@ -112,12 +120,12 @@ table.kursy td{
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover, .btnakcja:hover  {
+.button:hover, .btnakcja:hover, .btnBackToHome:hover  {
    border-top-color: #d18677;
    background: #d18677;
    color: #ffffff;
    }
-.button:active, .btnakcja:active  {
+.button:active, .btnakcja:active, .btnBackToHome:active  {
    border-top-color: #ffffff;
    background: #d18677;
    }
