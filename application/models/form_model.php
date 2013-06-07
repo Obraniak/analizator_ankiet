@@ -14,25 +14,37 @@ class Form_model extends  CI_Model {
 		$res = array();
 
 		$tmp = new FormData();
-		$tmp -> name = 'Formularz Test Anliza matematyczna';
+		$tmp -> course = 'Anliaza matematyczna';
+		$tmp -> name = 'Ankieta 2';
+		$tmp -> date = '2013-06-10';
+		$tmp -> status = 'Nowa';
 		$tmp -> id = '001';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormData();
-		$tmp -> name = 'Formularz Test Jezyk Angielski';
+		$tmp -> course = 'Podstawy programowania';
+		$tmp -> name = 'Ankieta 7';
+		$tmp -> date = '2013-05-14';
+		$tmp -> status = 'Zakonczona';
 		$tmp -> id = '002';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormData();
-		$tmp -> name = 'Formularz Test Systemy wspomagania decyzji';
+		$tmp -> course = 'Statystyka';
+		$tmp -> name = 'Ankieta 3';
+		$tmp -> date = '2013-06-01';
+		$tmp -> status = 'Rozpoczeta';
 		$tmp -> id = '003';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormData();
-		$tmp -> name = 'Formularz Test Logika';
+		$tmp -> course = 'Grafika komputerowa';
+		$tmp -> name = 'Ankieta 10';
+		$tmp -> date = '2013-06-18';
+		$tmp -> status = 'Nowa';
 		$tmp -> id = '004';
 
 		array_push($res, $tmp);

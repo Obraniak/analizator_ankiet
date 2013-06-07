@@ -1,7 +1,10 @@
 <?php
 class FormData {
-	public $name = '';
 	public $id = '';
+	public $course = '';
+	public $name = '';
+	public $date = '';
+	public $status = '';
 
 }
 
