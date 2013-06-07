@@ -2,18 +2,18 @@
 	<?php echo '<script src="' . base_url('js/script.js') . '"></script>'; ?>
 
 	<p>
-		<?php echo 'Nazwa :' . $form_name; ?>
+		<?php echo lang('form_name') . $form_name; ?>
 	</p>
 	<div>
 		<div>
 			<p>
-				<?php echo 'Kurs :' . $form_course; ?>
+				<?php echo lang('course') . $form_course; ?>
 			</p>
 			<p>
-				<?php echo 'Temat :' . $form_title; ?>
+				<?php echo lang('title')  . $form_title; ?>
 			</p>
 			<p>
-				<?php echo 'Uwagi :' . $form_description; ?>
+				<?php echo lang('remarks')  . $form_description; ?>
 			</p>
 		</div>
 		<center>
@@ -38,7 +38,7 @@
 					<?php 	echo '</form>'; ?>
 				</tr>
 			</table>
-			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powrót do listy ankiet</a></td>'; ?>
+			<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powrï¿½t do listy ankiet</a></td>'; ?>
 		</center>
 
 	</div>
