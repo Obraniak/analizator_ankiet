@@ -39,14 +39,25 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 
 	</script>
 
-	<div>
-		<input style="width: 100px; height: 40px;" type="text" name="answer" id="txtAnswer" value="">
-		<button type="button"  id="btnSave" style="btnSave" onclick="saveChanges();">
+	<div id="question">
+    <table>
+      <tr>
+        <td><input style="width: 500px; height: 100px;" type="text" name="answer" id="txtAnswer" value=""></td>
+      </tr>
+      <tr>
+        <td>
+        <button type="button"  id="btnSave" style="btnSave" onclick="saveChanges();">
 			<?php echo lang('save'); ?>
 		</button>
+        </td>
+      </tr>
+    </table>
+
+        
+
 	</div>
-	<center>
-		<table border="1" class="test">
+
+		<table class="bottomnav">
 			<tr>
 				<?php echo '<form id="navi" action="' . site_url('/form/item') . '">'; ?>
 				<td>
@@ -67,6 +78,6 @@ jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></td>'; ?>
-	</center>
+		<?php	echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>'; ?>
+
 </div>
