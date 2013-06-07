@@ -2,11 +2,32 @@
 	<?php echo '<script src="' . base_url('js/script.js') . '"></script>'; ?>
 <?php echo '<script src="' . base_url('js/jquery-1.9.1.min.js') . '"></script>'; ?>
 
+	<script>
+		function saveCahnges() {
+$.ajax({
+type : 'POST',
+url : <?php echo '"' . base_url('index.php/form/update?item=' . $form_question_detail -> id) . '"'; ?>
+	, data : $("#txtAnswer") ,
+	success : onSuccess,
+	error : onError
+	});
+	}
+
+	function onSuccess() {
+		alert('Zmiany zapisane');
+	}
+
+	function onError() {
+		alert('Wystapił problem');
+	}
+
+	</script>
+
 	<div>
-		<?php echo '<form id="navi" action="' . site_url('/form/update?item=' . $form_question_detail -> id) . '" method="post">'; ?>
-		<input style="width: 100px; height: 40px;" type="text" name="answer" value="">
-		<input type="submit" value="Zapisz" >
-		<?php echo '</form>'; ?>
+		<input style="width: 100px; height: 40px;" type="text" name="answer" id="txtAnswer" value="">
+		<button type="button"  id="btnSave" style="btnSave" onclick="saveCahnges();">
+			Zapisz
+		</button>
 	</div>
 	<center>
 		<table border="1" class="test">
@@ -30,6 +51,6 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powr�t do listy ankiet</a></td>'; ?>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Powrót do listy ankiet</a></td>'; ?>
 	</center>
 </div>
