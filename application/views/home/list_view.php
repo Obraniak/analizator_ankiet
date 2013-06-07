@@ -1,9 +1,11 @@
 <div class="app_content">
-	<?php  echo lang('user_loged') . ' ' . $user; ?>
 
-<div>
+
+<div id="logininfo">
+
+	<?php  echo lang('user_loged') . ' ' . $user; ?>
 	<?php echo '<form action="' . site_url('/login') . '">'; ?>
-	<input type="submit" value="<?php echo lang('logout'); ?>">
+	<input type="submit" class="button" value="<?php echo lang('logout'); ?>">
 	<?php 	echo '</form>'; ?>
 </div>
 	<div>
@@ -23,7 +25,7 @@
 				<input type="text" name="lstaus">
 				</td>
 				<td>
-				<input type="submit" value="<?php echo lang('search'); ?>">
+				<input type="submit" class="btnblue" value="<?php echo lang('search'); ?>">
 				</td>
 				<?php 	echo '</form>'; ?>
 			</tr>

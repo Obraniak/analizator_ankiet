@@ -29,6 +29,6 @@
 		    <option value="pl"><?php echo lang('pl_lang'); ?></option>
 			<option value="en"><?php echo lang('en_lang'); ?></option>
 			</select>
-		<input type="submit" value="<?php echo lang('accept'); ?>">
+		<input type="submit" class="btnblue" value="<?php echo lang('accept'); ?>">
 		<?php echo '</form>'; ?></div>
 </div>
