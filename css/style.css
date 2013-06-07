@@ -45,7 +45,13 @@ body {
 }
 
 .app_content {
+	padding: 20px 10px;
+}
 
+.app_content table {
+	border-collapse:collapse;
+	border:1px solid #999;
+	margin-top:20px;
 }
 
 #loginform {
@@ -54,8 +60,25 @@ body {
 
 
 }
+#loginform table {
+	border:none;
 
-.button {
+}
+#loginform table td {
+	border:none;
+	padding:5px;
+
+}
+
+#loginform table td.btn {
+	text-align:center;
+
+}
+
+table.kursy td{
+	padding: 10px 5px;
+}
+.button, .btnakcja {
    border-top: 1px solid #611506;
    background: #bf5945;
    background: -webkit-gradient(linear, left top, left bottom, from(#9c2f1a), to(#bf5945));
@@ -77,12 +100,12 @@ body {
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover {
+.button:hover, .btnakcja:hover  {
    border-top-color: #d18677;
    background: #d18677;
    color: #ffffff;
    }
-.button:active {
+.button:active, .btnakcja:active  {
    border-top-color: #ffffff;
    background: #d18677;
    }

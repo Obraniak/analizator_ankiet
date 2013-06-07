@@ -2,7 +2,7 @@
 	<?php echo 'Użytkownik zalogowany jako ' . $user; ?>
 
 	<div>
-		<table border="1">
+		<table border="1" class="kursy">
 			<tr>
 				<?php echo '<form action="' . site_url('/home/search') . '">'; ?>
 				<td>
@@ -36,7 +36,7 @@
 					echo '<td>' . $form -> name . '</td>';
 					echo '<td>' . $form -> date . '</td>';
 					echo '<td>' . $form -> status . '</td>';
-					echo '<td><a href="' . site_url('/form/start/id/' . $form -> id) . '">Przejdz</a></td>';
+					echo '<td><a class="btnakcja" href="' . site_url('/form/start/id/' . $form -> id) . '">Przejdz</a></td>';
 					echo "</tr>";
 				}
 			?>
