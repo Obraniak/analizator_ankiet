@@ -8,6 +8,14 @@ class FormData {
 
 }
 
+class FormSummary {
+	public $answer_open = '';
+	public $open_count = '';
+	public $answer_close = '';
+	public $close_count = '';
+
+}
+
 class FormDetailData {
 	public $id = '';
 	public $name = '';

@@ -64,6 +64,19 @@ class Form_model extends  CI_Model {
 		return $tmp;
 	}
 
+	public function getTestFormSummary() {
+
+		$tmp = new FormSummary();
+		
+		$tmp -> answer_close = 0;
+		$tmp -> answer_open = 0;
+		$tmp -> open_count = 0;
+		$tmp -> close_count = 0;
+
+		return $tmp;
+
+	}
+
 	public function getTestFormQustions() {
 
 		$res = array();
@@ -77,14 +90,14 @@ class Form_model extends  CI_Model {
 
 		$tmp = new FormQuestionData();
 		$tmp -> name = 'Ankieta 2';
-		$tmp -> question = 'Co sadzisz na temat prowadz±cego ?';
+		$tmp -> question = 'Co sadzisz na temat prowadzï¿½cego ?';
 		$tmp -> id = '002';
 
 		array_push($res, $tmp);
 
 		$tmp = new FormQuestionData();
 		$tmp -> name = 'Ankieta 3';
-		$tmp -> question = 'Co sadzisz na temat zadañ ?';
+		$tmp -> question = 'Co sadzisz na temat zadaï¿½ ?';
 		$tmp -> id = '003';
 
 		array_push($res, $tmp);
