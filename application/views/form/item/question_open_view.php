@@ -18,7 +18,7 @@ url : <?php echo '"' . base_url('index.php/form/update?item=' . $form_question_d
 	}
 
 	function onError() {
-		alert('WystapiÅ‚ problem');
+		alert('Wystapi³ problem');
 	}
 
 	</script>
@@ -51,6 +51,6 @@ url : <?php echo '"' . base_url('index.php/form/update?item=' . $form_question_d
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">PowrÃ³t do listy ankiet</a></td>'; ?>
+		<?php	echo '<td><a class="btnBackToHome" href="' . site_url('/home/index') . '">Wróæ do listy ankiet</a></td>'; ?>
 	</center>
 </div>
