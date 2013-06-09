@@ -42,9 +42,63 @@
 				echo '<td>' . $form -> course . '</td>';
 				echo '<td>' . $form -> name . '</td>';
 				echo '<td>' . $form -> date . '</td>';
-				echo '<td>' . $form -> status . '</td>';
-				echo '<td><a class="button" href="' . site_url('/form/start/id/' . $form -> id) . '">' . lang('goto') . '</a></td>';
+				echo '<td>' . getState($form -> status) . '</td>';
+				echo '<td><a class="' . getViewClass($form -> status) . '" href="' . site_url('/form/start/id/' . $form -> id) . '">' . getDescription($form -> status) . '</a></td>';
 				echo "</tr>";
+			}
+
+			function getState($status) {
+
+				switch($status) {
+					case 0 : {
+						return lang('form_new');
+					}
+					case 1 : {
+						return lang('form_start');
+					}
+					case 2 : {
+						return lang('form_end');
+					}
+					default : {
+						return lang('form_new');
+					}
+				}
+
+			}
+
+			function getDescription($status) {
+				switch($status) {
+					case 0 : {
+						return lang('form_go');
+					}
+					case 1 : {
+						return lang('form_continue');
+					}
+					case 2 : {
+						return lang('form_show');
+					}
+					default : {
+						return lang('form_go');
+					}
+				}
+
+			}
+
+			function getViewClass($status) {
+				switch($status) {
+					case 0 : {
+						return 'btngreen';
+					}
+					case 1 : {
+						return 'btngrey';
+					}
+					case 2 : {
+						return 'btnblue';
+					}
+					default : {
+						return 'btnblue';
+					}
+				}
 			}
 			?>
 		</table>

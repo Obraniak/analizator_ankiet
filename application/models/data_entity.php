@@ -5,6 +5,8 @@ class FormData {
 	public $name = '';
 	public $date = '';
 	public $status = '';
+	public $title = '';
+	public $description = '';
 
 }
 
@@ -13,15 +15,6 @@ class FormSummary {
 	public $open_count = '';
 	public $answer_close = '';
 	public $close_count = '';
-
-}
-
-class FormDetailData {
-	public $id = '';
-	public $name = '';
-	public $course = '';
-	public $title = '';
-	public $description = '';
 
 }
 

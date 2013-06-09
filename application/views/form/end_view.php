@@ -37,6 +37,12 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 		</table>
-		<?php	echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>'; ?>
+		<?php
+		if ($form_status == 2) {
+			echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>';
+		} else {
+			echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('save_back_to_home') . '</a></div>';
+		}
+ ?>
 
 </div>
