@@ -16,7 +16,7 @@
 		<?php echo lang('close_question') . $answer_close_question . ' / ' . $close_question_count; ?>
 	</p>
 
-		<table class="bottomnav"
+		<table class="bottomnav">
 			<tr>
 				<?php echo '<form id="navi" action="' . site_url('/form/item') . '">'; ?>
 				<td>
@@ -26,8 +26,8 @@
 				<input type="submit" value="<" onclick="return before();">
 				</td>
 				<td>
-				<input id="item" type="text" name="item" value="<?php echo $form_position; ?>">
-				</td>
+				<input name="item" type="text" id="item" value="<?php echo $form_position; ?>" size="3" maxlength="3">
+    </td>
 				<td>
 				<input type="submit" value="->"  disabled="disabled" onclick="return next();">
 				</td>

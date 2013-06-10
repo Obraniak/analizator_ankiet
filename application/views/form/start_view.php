@@ -27,8 +27,8 @@
 					<input type="submit" value="<" disabled="disabled" onclick="return before();">
 					</td>
 					<td>
-					<input id="item" type="text" name="item" value="0">
-					</td>
+					<input name="item" type="text" id="item" value="0" size="3" maxlength="3">
+			    </td>
 					<td>
 					<input type="submit" value="->"  onclick="return next();">
 					</td>

@@ -14,6 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
+	position:relative;
 }
 
 #header {
@@ -69,8 +70,12 @@ body {
 }
 
 #logininfo {
-	margin-left:660px;
-	width:150px;	
+
+
+	position:absolute;
+	top:50px;
+	right:15px;
+
 }
 
 #loginform {
@@ -103,7 +108,8 @@ table.bottomnav {
 	margin-right:auto;
 }
 #bottombtn {
-	margin-left:580px;
+	text-align:right;
+	margin-right:20px;
 }
 
 #question table {

@@ -66,8 +66,8 @@
 			<input type="submit" value="<" onclick="return before();">
 			</td>
 			<td>
-			<input id="item" type="text" name="item" value="<?php echo $form_position; ?>">
-			</td>
+			<input name="item" type="text" id="item" value="<?php echo $form_position; ?>" size="3" maxlength="3">
+    </td>
 			<td>
 			<input type="submit" value="->"  onclick="return next();">
 			</td>
