@@ -3,24 +3,22 @@
 		<?php echo form_open('authentication'); ?>
 		<table border="0" cellspacing="0" cellpadding="0">
 			<tr>
-				<td><label for="username"><?php echo lang('login'); ?></label>
-				<input type="text" size="20" id="username" name="username"/>
-				</td>
+				<td><label for="username"><?php echo lang('login'); ?></label></td>
+				<td><input type="text" size="20" id="username" name="username"/></td>
 			</tr>
 			<tr>
-				<td><label for="password"><?php echo lang('password'); ?></label>
-				<input type="password" size="20" id="passowrd" name="password"/>
-				</td>
+				<td><label for="password"><?php echo lang('password'); ?></label></td>
+                <td><input type="password" size="20" id="passowrd" name="password"/></td>
 			</tr>
 			<tr>
-				<td class="btn">
+				<td colspan="2" class="btn">
 				<input type="submit" value="<?php echo lang('dologin'); ?>"/ class="button">
 				</td>
-			</tr>
+            </tr>
 		</table>
 
 		</form>
-	</div>
+</div>
 	
 	<div>
 		<?php echo '<form action="' . site_url('/login') . '">'; ?>
