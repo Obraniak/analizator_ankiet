@@ -7,38 +7,40 @@
 	<div>
 		<div>
 			<p>
-				<?php echo lang('course') . ' ' . $form_course; ?>
+				<?php echo lang('course') . $form_course; ?>
 			</p>
 			<p>
-				<?php echo lang('title') . ' ' . $form_title; ?>
+				<?php echo lang('title') . $form_title; ?>
 			</p>
 			<p>
-				<?php echo lang('remarks') . ' ' . $form_description; ?>
+				<?php echo lang('remarks') . $form_description; ?>
 			</p>
 		</div>
 
-		<table class="bottomnav">
-			<tr>
-				<?php echo '<form id="navi" action="' . site_url('/form/item/detail') . '">'; ?>
-				<td>
-				<input type="submit" value="<-" onclick="return begin();">
-				</td>
-				<td>
-				<input type="submit" value="<" disabled="disabled" onclick="return before();">
-				</td>
-				<td>
-				<input id="item" type="text" name="item" value="0">
-				</td>
-				<td>
-				<input type="submit" value="->"  onclick="return next();">
-				</td>
-				<td>
-				<input type="submit" value="=>"  onclick="return end();">
-				</td>
-				<?php 	echo '</form>'; ?>
-			</tr>
-		</table>
-		<?php	echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>'; ?>
+			<table class="bottomnav">
+				<tr>
+					<?php echo '<form id="navi" action="' . site_url('/form/item/detail') . '">'; ?>
+					<td>
+					<input type="submit" value="<-" onclick="return begin();">
+					</td>
+					<td>
+					<input type="submit" value="<" disabled="disabled" onclick="return before();">
+					</td>
+					<td>
+					<input name="item" type="text" id="item" value="0" size="3" maxlength="3">
+			    </td>
+					<td>
+					<input type="submit" value="->"  onclick="return next();">
+					</td>
+					<td>
+					<input type="submit" value="=>"  onclick="return end();">
+					</td>
+					<?php 	echo '</form>'; ?>
+				</tr>
+			</table>
+			<?php	echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>'; ?>
+
+
 	</div>
 
 </div>

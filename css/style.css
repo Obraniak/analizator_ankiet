@@ -14,6 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
+	position:relative;
 }
 
 #header {
@@ -69,8 +70,12 @@ body {
 }
 
 #logininfo {
-	margin-left:660px;
-	width:150px;	
+
+
+	position:absolute;
+	top:50px;
+	right:15px;
+
 }
 
 #loginform {
@@ -98,12 +103,22 @@ table.kursy td{
 	padding: 10px 5px;
 }
 
+table.kursy a {
+	width:70px;
+	text-align:center;
+}
+
+table.kursy input[type=submit] {
+	width:100px;	
+}
+
 table.bottomnav {
 	margin-left:auto;
 	margin-right:auto;
 }
 #bottombtn {
-	margin-left:580px;
+	text-align:right;
+	margin-right:20px;
 }
 
 #question table {
@@ -211,8 +226,8 @@ table.bottomnav {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6) );
-	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #CCC) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #CCC 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
 	background-color:#ffffff;
 	-moz-border-radius:5px;
@@ -227,8 +242,8 @@ table.bottomnav {
 	padding:4px 13px;
 	text-decoration:none;
 }.btngrey:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff) );
-	background:-moz-linear-gradient( center top, #f6f6f6 5%, #ffffff 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ccc), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ccc 5%, #ffffff 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff');
 	background-color:#f6f6f6;
 }.btngrey:active {
