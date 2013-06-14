@@ -45,7 +45,7 @@ function onError() { alert(<?php echo "'" . lang('error_occured') . "'"; ?>
 			<tr>
 				<td>
 					<?php
-					$imput = '<textarea name="answer" id="txtAnswer" style="width: 500px; height: 100px;" >';
+					$imput = '<textarea name="answer" id="txtAnswer" style="width: 740px; height: 100px;" >';
 					$imput = $imput . $form_questions_detail -> text;
 					$imput = $imput . '</textarea>';
 					echo $imput;
