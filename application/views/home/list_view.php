@@ -2,11 +2,11 @@
 
 
 <div id="logininfo">
-
-	<p><?php  echo lang('user_loged') . ': ' . $user; ?></p>
 	<?php echo '<form action="' . site_url('/login') . '">'; ?>
 	<input type="submit" class="button" value="<?php echo lang('logout'); ?>">
 	<?php 	echo '</form>'; ?>
+	<p><?php  echo lang('user_loged') . ': ' . $user; ?></p>
+
 </div>
 	<div>
 		<table border="1" class="kursy">

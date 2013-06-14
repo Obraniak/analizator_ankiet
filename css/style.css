@@ -41,7 +41,10 @@ body {
 	margin: 5px 0px;
 	font-smooth: always;
 }
-
+h2 {
+	font-size:14;
+	color:#900;
+}
 
 .app_footer {
     padding: 5px 20px;
@@ -61,11 +64,19 @@ body {
 
 #logininfo {
 	text-align:right;
-	margin-right:20px;
-	line-height:20px;
+	margin-right:10px;
+	position:relative;
+	height:30px;
 }
 
+#logininfo p, #logininfo input {
+	float:right;
+	margin-left:10px;
+}
 
+#logininfo p {
+	font-weight:bold;
+}
 #loginform {
     width: 300px;
     margin: 20px auto;
