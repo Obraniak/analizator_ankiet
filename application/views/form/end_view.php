@@ -1,4 +1,19 @@
 <div class="app_content">
+<?php echo '<script src="' . base_url('js/script.js') . '"></script>';
+	?>
+	<?php echo '<script src="' . base_url('js/jquery-1.9.1.min.js') . '"></script>';
+	?>
+	<?php echo '<script src="' . base_url('js/jquery.json-2.4.min.js') . '"></script>'; ?>
+
+	<script>
+	
+	function close () {
+	  alert('close');
+	  return true;
+	}
+	
+	</script>
+
 
 	<h2>
 		<?php echo $form_name; ?>
@@ -41,7 +56,7 @@
 		if ($form_status == 2) {
 			echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('back_to_home') . '</a></div>';
 		} else {
-			echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '">' . lang('save_back_to_home') . '</a></div>';
+			echo '<div id="bottombtn"><a class="btnBackToHome" href="' . site_url('/home/index') . '" onclick="return close();">' . lang('save_back_to_home') . ' </a></div>';
 		}
  ?>
 
