@@ -73,13 +73,13 @@
 			</tr>";
 			}
 			?>
-			<td>
-			<button type="button"  id="btnSave" style="btnSave" onclick="saveChanges();">
-				<?php echo lang('save'); ?>
-			</button></td>
+	
 			</tr>
 		</table>
 
+			<button type="button"  id="btnSave" class="btngrey" onclick="saveChanges();">
+				<?php echo lang('save'); ?>
+			</button>
 	</div>
 
 	<table class="bottomnav">
