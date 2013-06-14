@@ -16,7 +16,7 @@
 
 		var update_url = <?php echo '"' . base_url('index.php/form/update') . '/";'; ?>
 
-					var jsonArg1 = new Object();
+		var jsonArg1 = new Object();
 		jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 					var jsonArg2 = new Object();
 		jsonArg2.answer = $("#txtAnswer").val();

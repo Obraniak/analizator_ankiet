@@ -44,7 +44,7 @@
 	<div id="question">
 		<table>
 			<tr>
-				<td><textarea name="answer" id="txtAnswer" style="width: 500px; height: 100px;"></textarea></td>
+				<td>				<textarea name="answer" id="txtAnswer" style="width: 500px; height: 100px;"></textarea></td>
 			</tr>
 			<tr>
 				<td>

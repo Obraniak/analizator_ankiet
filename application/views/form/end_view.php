@@ -10,10 +10,10 @@
 		<?php echo lang('complete_level'); ?>
 	</p>
 	<p>
-		<?php echo lang('open_question') . $answer_open_question . ' / ' . $open_question_count; ?>
+		<?php echo lang('open_question') . ' ' . $answer_open_question . ' / ' . $open_question_count; ?>
 	</p>
 	<p>
-		<?php echo lang('close_question') . $answer_close_question . ' / ' . $close_question_count; ?>
+		<?php echo lang('close_question') . ' ' . $answer_close_question . ' / ' . $close_question_count; ?>
 	</p>
 
 		<table class="bottomnav"
