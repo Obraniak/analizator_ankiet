@@ -162,18 +162,19 @@ class Form_model extends  CI_Model {
 		return null;
 	}
 
-	public function getTestFormQuestionOpenDetails($id_form, $id) {
+	public function getTestFormQuestionOpenAnswer($id_user, $id_form, $id_question) {
 
 		$tmp = new FormQuestionDetailsData();
-		$tmp -> id = $id;
+		$tmp -> id = -1;
 
-		$sql = "SELECT  p.ID_Pytanie, p.Tekst
-				FROM pytanie p
-				WHERE p.ID_Pytanie = ?";
+		$sql = "SELECT o.ID_Odpowiedz,o.Tekst
+				FROM odpowiedz o
+				WHERE o.StudentID_Student = ? AND o.PytanieID_Pytanie = ? AND o.AnkietaID_Ankieta = ?";
 
-		$query = $this -> db -> query($sql, array($id));
+		$query = $this -> db -> query($sql, array($id_user, $id_question, $id_form));
 
 		foreach ($query -> result_array() as $row) {
+			$tmp -> id = $row['ID_Zamkniete'];
 			$tmp -> text = $row['Tekst'];
 		}
 
@@ -198,6 +199,27 @@ class Form_model extends  CI_Model {
 		// }
 
 		return null;
+	}
+
+	public function getTestFormQustionCloseAnswer($id_user, $id_form, $id_question) {
+
+		$tmp = new FormQuestionDetailsData();
+		$tmp -> id = -1;
+
+		$sql = "SELECT w.ZamknieteID_Zamkniete AS ID_Zamkniete
+				FROM wybor w
+				JOIN zamkniete z ON z.ID_Zamkniete = w.ZamknieteID_Zamkniete
+				WHERE w.StudentID_Student = ? 
+						AND z.PytanieID_Pytanie = ? 
+						AND w.AnkietaID_Ankieta = ?";
+
+		$query = $this -> db -> query($sql, array($id_user, $id_question, $id_form));
+
+		foreach ($query -> result_array() as $row) {
+			$tmp -> id = $row['ID_Zamkniete'];
+		}
+
+		return $tmp;
 	}
 
 	public function getTestFormQustionCloseDetails($id_form, $id) {

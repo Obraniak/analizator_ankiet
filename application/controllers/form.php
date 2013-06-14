@@ -119,11 +119,20 @@ class Form extends CI_Controller {
 		$this -> load -> view('base/header_view');
 		$this -> load -> view('form/item_view', $question_header);
 
+		$question_detail['form_questions_id'] = $id;
+
 		if ($question_header['form_question'] -> type == 0) {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQuestionOpenDetails($this -> session -> userdata('current_form_id'), $id);
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQuestionOpenAnswer($this -> session -> userdata('user_id'),
+																											 $this -> session -> userdata('current_form_id'), 
+																											 $this -> session -> userdata('current_form_details_id'));
 			$this -> load -> view('form/item/question_open_view', $question_detail);
 		} else {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetails($this -> session -> userdata('current_form_id'), $id);
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetails($this -> session -> userdata('current_form_id'),
+																											  $this -> session -> userdata('current_form_details_id'));
+																											  
+			$question_detail['form_question_answer'] = $this -> Form_model -> getTestFormQustionCloseAnswer($this -> session -> userdata('user_id'),
+																											$this -> session -> userdata('current_form_id'),
+																											$this -> session -> userdata('current_form_details_id'));
 			$this -> load -> view('form/item/question_close_view', $question_detail);
 		}
 
@@ -143,6 +152,8 @@ class Form extends CI_Controller {
 			$content = file_get_contents('php://input');
 
 			$entity = json_decode($content);
+
+			log_message('DEBUG', $this -> session -> userdata('current_form_id'));
 			log_message('DEBUG', $entity -> data[0] -> id);
 			log_message('DEBUG', $entity -> data[1] -> answer);
 
