@@ -138,6 +138,13 @@ table.bottomnav {
 	font-weight:bold;
 	font-size:14px;
 }
+#question table {
+	border:none;
+}
+#btnSave {
+	float:right;
+	margin-right:20px;
+}
 /*---------------------------------BUTTONS--------------------------------------*/
 
    

@@ -12434,3 +12434,2288 @@ DEBUG - 2013-06-14 19:26:47 --> File loaded: application/views/form/item/questio
 DEBUG - 2013-06-14 19:26:47 --> File loaded: application/views/base/footer_view.php
 DEBUG - 2013-06-14 19:26:47 --> Final output sent to browser
 DEBUG - 2013-06-14 19:26:47 --> Total execution time: 0.2243
+DEBUG - 2013-06-14 21:12:00 --> Config Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:12:00 --> URI Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Router Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> No URI present. Default controller set.
+DEBUG - 2013-06-14 21:12:00 --> Output Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Security Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Input Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:12:00 --> Language Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:12:00 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:12:00 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:12:00 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:00 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:12:01 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:12:01 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:12:01 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:12:01 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:12:01 --> Session Class Initialized
+DEBUG - 2013-06-14 21:12:01 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:12:01 --> Session routines successfully run
+DEBUG - 2013-06-14 21:12:01 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:12:01 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 21:12:01 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:01 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:12:01 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:12:01 --> File loaded: application/views/login/form_view.php
+DEBUG - 2013-06-14 21:12:01 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:12:01 --> Final output sent to browser
+DEBUG - 2013-06-14 21:12:01 --> Total execution time: 1.2288
+DEBUG - 2013-06-14 21:12:04 --> Config Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:12:04 --> URI Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Router Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Output Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Security Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Input Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:12:04 --> Language Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:12:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:12:04 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:12:04 --> Session Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:12:04 --> Session routines successfully run
+DEBUG - 2013-06-14 21:12:04 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> 174288@student.pwr.wroc.pl 
+DEBUG - 2013-06-14 21:12:04 --> 1
+DEBUG - 2013-06-14 21:12:04 --> Config Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:12:04 --> URI Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Router Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Output Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Security Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Input Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:12:04 --> Language Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:12:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:12:04 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:12:04 --> Session Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:12:04 --> Session routines successfully run
+DEBUG - 2013-06-14 21:12:04 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:12:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:04 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:05 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:12:05 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:12:05 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:12:05 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:12:05 --> test
+DEBUG - 2013-06-14 21:12:05 --> Final output sent to browser
+DEBUG - 2013-06-14 21:12:05 --> Total execution time: 0.2249
+DEBUG - 2013-06-14 21:12:10 --> Config Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:12:10 --> URI Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Router Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Output Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Security Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Input Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:12:10 --> Language Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:12:10 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:12:10 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:10 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:12:10 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:12:10 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:12:10 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:12:10 --> Session Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:12:10 --> Session routines successfully run
+DEBUG - 2013-06-14 21:12:10 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:10 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:10 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:12:10 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:12:10 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:12:10 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:12:10 --> Final output sent to browser
+DEBUG - 2013-06-14 21:12:10 --> Total execution time: 0.1988
+DEBUG - 2013-06-14 21:12:16 --> Config Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:12:16 --> URI Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Router Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Output Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Security Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Input Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:12:16 --> Language Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:12:16 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:12:16 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:16 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:12:16 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:12:16 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:12:16 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:12:16 --> Session Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:12:16 --> Session routines successfully run
+DEBUG - 2013-06-14 21:12:16 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:12:16 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> Model Class Initialized
+DEBUG - 2013-06-14 21:12:16 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:12:16 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:12:16 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:12:16 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:12:16 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:12:16 --> Final output sent to browser
+DEBUG - 2013-06-14 21:12:16 --> Total execution time: 0.2337
+DEBUG - 2013-06-14 21:14:47 --> Config Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:14:47 --> URI Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Router Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Output Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Security Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Input Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:14:47 --> Language Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:14:47 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:14:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:47 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:14:47 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:14:47 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:14:47 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:14:47 --> Session Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:14:47 --> Session routines successfully run
+DEBUG - 2013-06-14 21:14:47 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:47 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:14:47 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:14:47 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:14:47 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:14:47 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:14:47 --> Final output sent to browser
+DEBUG - 2013-06-14 21:14:47 --> Total execution time: 0.2203
+DEBUG - 2013-06-14 21:14:50 --> Config Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:14:50 --> URI Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Router Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Output Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Security Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Input Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:14:50 --> Language Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:14:50 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:14:50 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:50 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:14:50 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:14:50 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:14:50 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:14:50 --> Session Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:14:50 --> Session routines successfully run
+DEBUG - 2013-06-14 21:14:50 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:50 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:14:50 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:14:50 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:14:50 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:14:50 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:14:50 --> Final output sent to browser
+DEBUG - 2013-06-14 21:14:50 --> Total execution time: 0.2135
+DEBUG - 2013-06-14 21:14:55 --> Config Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:14:55 --> URI Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Router Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Output Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Security Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Input Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:14:55 --> Language Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:14:55 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:14:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:55 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:14:55 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:14:55 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:14:55 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:14:55 --> Session Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:14:55 --> Session routines successfully run
+DEBUG - 2013-06-14 21:14:55 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:14:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:14:55 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:14:55 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:14:55 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:14:55 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:14:55 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:14:55 --> Final output sent to browser
+DEBUG - 2013-06-14 21:14:55 --> Total execution time: 0.2369
+DEBUG - 2013-06-14 21:15:54 --> Config Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:15:54 --> URI Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Router Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Output Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Security Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Input Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:15:54 --> Language Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:15:54 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:15:54 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:15:54 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:15:54 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:15:54 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:15:54 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:15:54 --> Session Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:15:54 --> Session routines successfully run
+DEBUG - 2013-06-14 21:15:54 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:15:54 --> Model Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> Model Class Initialized
+DEBUG - 2013-06-14 21:15:54 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:15:54 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:15:54 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:15:54 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:15:54 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:15:54 --> Final output sent to browser
+DEBUG - 2013-06-14 21:15:54 --> Total execution time: 0.2126
+DEBUG - 2013-06-14 21:18:46 --> Config Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:18:46 --> URI Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Router Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Output Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Security Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Input Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:18:46 --> Language Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:18:46 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:18:46 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:18:46 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:18:46 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:18:46 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:18:46 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:18:46 --> Session Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:18:46 --> Session routines successfully run
+DEBUG - 2013-06-14 21:18:46 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:18:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:18:46 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:18:46 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:18:46 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:18:46 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:18:46 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:18:46 --> Final output sent to browser
+DEBUG - 2013-06-14 21:18:46 --> Total execution time: 0.2097
+DEBUG - 2013-06-14 21:19:11 --> Config Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:19:11 --> URI Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Router Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Output Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Security Class Initialized
+DEBUG - 2013-06-14 21:19:11 --> Input Class Initialized
+DEBUG - 2013-06-14 21:19:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:19:12 --> Language Class Initialized
+DEBUG - 2013-06-14 21:19:12 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:19:12 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:19:12 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:19:12 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:19:12 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:19:13 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:19:13 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:19:13 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:19:13 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:19:13 --> Session Class Initialized
+DEBUG - 2013-06-14 21:19:13 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:19:13 --> Session routines successfully run
+DEBUG - 2013-06-14 21:19:13 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:19:13 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:19:13 --> Model Class Initialized
+DEBUG - 2013-06-14 21:19:13 --> Model Class Initialized
+DEBUG - 2013-06-14 21:19:13 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:19:13 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:19:13 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:19:13 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:19:13 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:19:13 --> Final output sent to browser
+DEBUG - 2013-06-14 21:19:13 --> Total execution time: 1.2152
+DEBUG - 2013-06-14 21:19:23 --> Config Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:19:23 --> URI Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Router Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Output Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Security Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Input Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:19:23 --> Language Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:19:23 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:19:23 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:19:23 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:19:23 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:19:24 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:19:24 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:19:24 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:19:24 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:19:24 --> Session Class Initialized
+DEBUG - 2013-06-14 21:19:24 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:19:24 --> Session routines successfully run
+DEBUG - 2013-06-14 21:19:24 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:19:24 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:19:24 --> Model Class Initialized
+DEBUG - 2013-06-14 21:19:24 --> Model Class Initialized
+DEBUG - 2013-06-14 21:19:24 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:19:24 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:19:24 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:19:24 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:19:24 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:19:24 --> Final output sent to browser
+DEBUG - 2013-06-14 21:19:24 --> Total execution time: 1.2161
+DEBUG - 2013-06-14 21:20:38 --> Config Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:20:38 --> URI Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Router Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Output Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Security Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Input Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:20:38 --> Language Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:20:38 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:20:38 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:38 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:20:38 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:20:38 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:20:38 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:20:38 --> Session Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:20:38 --> Session routines successfully run
+DEBUG - 2013-06-14 21:20:38 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:38 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:38 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:20:38 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:20:38 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:20:38 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:20:38 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:20:38 --> Final output sent to browser
+DEBUG - 2013-06-14 21:20:38 --> Total execution time: 0.2125
+DEBUG - 2013-06-14 21:20:55 --> Config Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:20:55 --> URI Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Router Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Output Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Security Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Input Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:20:55 --> Language Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:20:55 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:20:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:55 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:20:55 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:20:55 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:20:55 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:20:55 --> Session Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:20:55 --> Session routines successfully run
+DEBUG - 2013-06-14 21:20:55 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:55 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:20:55 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:20:55 --> File loaded: application/views/form/end_view.php
+DEBUG - 2013-06-14 21:20:55 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:20:55 --> Final output sent to browser
+DEBUG - 2013-06-14 21:20:55 --> Total execution time: 0.2235
+DEBUG - 2013-06-14 21:20:58 --> Config Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:20:58 --> URI Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Router Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Output Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Security Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Input Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:20:58 --> Language Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:20:58 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:20:58 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:58 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:20:58 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:20:58 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:20:58 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:20:58 --> Session Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:20:58 --> Session routines successfully run
+DEBUG - 2013-06-14 21:20:58 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:20:58 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> Model Class Initialized
+DEBUG - 2013-06-14 21:20:58 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:20:58 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:20:58 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:20:58 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:20:58 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:20:58 --> Final output sent to browser
+DEBUG - 2013-06-14 21:20:58 --> Total execution time: 0.2132
+DEBUG - 2013-06-14 21:21:00 --> Config Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:21:00 --> URI Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Router Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Output Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Security Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Input Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:21:00 --> Language Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:21:00 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:21:00 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:21:00 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:21:00 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:21:00 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:21:00 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:21:00 --> Session Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:21:00 --> Session routines successfully run
+DEBUG - 2013-06-14 21:21:00 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:21:00 --> Model Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> Model Class Initialized
+DEBUG - 2013-06-14 21:21:00 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:21:00 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:21:00 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:21:00 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:21:00 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:21:00 --> Final output sent to browser
+DEBUG - 2013-06-14 21:21:00 --> Total execution time: 0.2079
+DEBUG - 2013-06-14 21:21:01 --> Config Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:21:01 --> URI Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Router Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Output Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Security Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Input Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:21:01 --> Language Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:21:01 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:21:01 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:21:01 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:21:01 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:21:01 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:21:02 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:21:02 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:21:02 --> Session Class Initialized
+DEBUG - 2013-06-14 21:21:02 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:21:02 --> Session routines successfully run
+DEBUG - 2013-06-14 21:21:02 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:21:02 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:21:02 --> Model Class Initialized
+DEBUG - 2013-06-14 21:21:02 --> Model Class Initialized
+DEBUG - 2013-06-14 21:21:02 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:21:02 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:21:02 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:21:02 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:21:02 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:21:02 --> Final output sent to browser
+DEBUG - 2013-06-14 21:21:02 --> Total execution time: 0.2171
+DEBUG - 2013-06-14 21:23:18 --> Config Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:23:18 --> URI Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Router Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Output Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Security Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Input Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:23:18 --> Language Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:23:18 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:23:18 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:18 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:23:18 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:23:18 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:23:18 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:23:18 --> Session Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:23:18 --> Session routines successfully run
+DEBUG - 2013-06-14 21:23:18 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:18 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:18 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:23:18 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:23:18 --> File loaded: application/views/form/end_view.php
+DEBUG - 2013-06-14 21:23:18 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:23:18 --> Final output sent to browser
+DEBUG - 2013-06-14 21:23:18 --> Total execution time: 0.2058
+DEBUG - 2013-06-14 21:23:20 --> Config Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:23:20 --> URI Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Router Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Output Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Security Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Input Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:23:20 --> Language Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:23:20 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:23:20 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:20 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:23:20 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:23:20 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:23:20 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:23:20 --> Session Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:23:20 --> Session routines successfully run
+DEBUG - 2013-06-14 21:23:20 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:20 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:20 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:23:20 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:23:20 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:23:20 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:23:20 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:23:20 --> Final output sent to browser
+DEBUG - 2013-06-14 21:23:20 --> Total execution time: 0.2199
+DEBUG - 2013-06-14 21:23:22 --> Config Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:23:22 --> URI Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Router Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Output Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Security Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Input Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:23:22 --> Language Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:23:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:23:22 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:23:22 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:23:22 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:23:22 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:23:23 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:23:23 --> Session Class Initialized
+DEBUG - 2013-06-14 21:23:23 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:23:23 --> Session routines successfully run
+DEBUG - 2013-06-14 21:23:23 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:23:23 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:23 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:23 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:23 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:23:23 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:23:23 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:23:23 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:23:23 --> Final output sent to browser
+DEBUG - 2013-06-14 21:23:23 --> Total execution time: 0.1940
+DEBUG - 2013-06-14 21:23:24 --> Config Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:23:24 --> URI Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Router Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Output Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Security Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Input Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:23:24 --> Language Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:23:24 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:23:24 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:24 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:23:24 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:23:24 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:23:24 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:23:24 --> Session Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:23:24 --> Session routines successfully run
+DEBUG - 2013-06-14 21:23:24 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:23:24 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> Model Class Initialized
+DEBUG - 2013-06-14 21:23:24 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:23:24 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:23:24 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:23:24 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:23:24 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:23:24 --> Final output sent to browser
+DEBUG - 2013-06-14 21:23:24 --> Total execution time: 0.2047
+DEBUG - 2013-06-14 21:24:41 --> Config Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:24:41 --> URI Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Router Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Output Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Security Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Input Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:24:41 --> Language Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:24:41 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:24:41 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:41 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:24:41 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:24:41 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:24:41 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:24:41 --> Session Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:24:41 --> Session routines successfully run
+DEBUG - 2013-06-14 21:24:41 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:41 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:41 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:24:41 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:24:41 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:24:41 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:24:41 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:24:41 --> Final output sent to browser
+DEBUG - 2013-06-14 21:24:41 --> Total execution time: 0.2152
+DEBUG - 2013-06-14 21:24:42 --> Config Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:24:42 --> URI Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Router Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Output Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Security Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Input Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:24:42 --> Language Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:24:42 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:24:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:42 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:24:42 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:24:42 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:24:42 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:24:42 --> Session Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:24:42 --> Session routines successfully run
+DEBUG - 2013-06-14 21:24:42 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:42 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:24:42 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:24:42 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:24:42 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:24:42 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:24:42 --> Final output sent to browser
+DEBUG - 2013-06-14 21:24:42 --> Total execution time: 0.2132
+DEBUG - 2013-06-14 21:24:44 --> Config Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:24:44 --> URI Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Router Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Output Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Security Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Input Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:24:44 --> Language Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:24:44 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:24:44 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:44 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:24:44 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:24:44 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:24:44 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:24:44 --> Session Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:24:44 --> Session routines successfully run
+DEBUG - 2013-06-14 21:24:44 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:44 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:44 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:24:44 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:24:44 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:24:44 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:24:44 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:24:44 --> Final output sent to browser
+DEBUG - 2013-06-14 21:24:44 --> Total execution time: 0.2100
+DEBUG - 2013-06-14 21:24:46 --> Config Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:24:46 --> URI Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Router Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Output Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Security Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Input Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:24:46 --> Language Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:24:46 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:24:46 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:46 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:24:46 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:24:46 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:24:46 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:24:46 --> Session Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:24:46 --> Session routines successfully run
+DEBUG - 2013-06-14 21:24:46 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:24:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:24:46 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:24:46 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:24:46 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:24:46 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:24:46 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:24:46 --> Final output sent to browser
+DEBUG - 2013-06-14 21:24:46 --> Total execution time: 0.2075
+DEBUG - 2013-06-14 21:25:04 --> Config Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:25:04 --> URI Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Router Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Output Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Security Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Input Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:25:04 --> Language Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:25:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:25:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:25:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:25:04 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:25:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:25:04 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:25:04 --> Session Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:25:04 --> Session routines successfully run
+DEBUG - 2013-06-14 21:25:04 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:25:04 --> Model Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> Model Class Initialized
+DEBUG - 2013-06-14 21:25:04 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:25:04 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:25:04 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:25:04 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:25:04 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:25:04 --> Final output sent to browser
+DEBUG - 2013-06-14 21:25:04 --> Total execution time: 0.2190
+DEBUG - 2013-06-14 21:25:06 --> Config Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:25:06 --> URI Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Router Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Output Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Security Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Input Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:25:06 --> Language Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:25:06 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:25:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:25:06 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:25:06 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:25:06 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:25:06 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:25:06 --> Session Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:25:06 --> Session routines successfully run
+DEBUG - 2013-06-14 21:25:06 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:25:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:25:06 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:25:06 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:25:06 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:25:06 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:25:06 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:25:06 --> Final output sent to browser
+DEBUG - 2013-06-14 21:25:06 --> Total execution time: 0.2090
+DEBUG - 2013-06-14 21:26:09 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:09 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:09 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:09 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:09 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:09 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:09 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:09 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:09 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:09 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:09 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:09 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:09 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:09 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:09 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:09 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:09 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:09 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:09 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:09 --> Total execution time: 0.2166
+DEBUG - 2013-06-14 21:26:10 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:10 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:10 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:10 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:10 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:10 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:10 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:10 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:10 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:10 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:10 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:10 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:10 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:10 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:10 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:10 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:10 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:10 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:10 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:10 --> Total execution time: 0.2120
+DEBUG - 2013-06-14 21:26:20 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:20 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:20 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:20 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:21 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:21 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:21 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:21 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:21 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:21 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:21 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:21 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:21 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:21 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:21 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:21 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:21 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:21 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:21 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:21 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:21 --> Total execution time: 0.2253
+DEBUG - 2013-06-14 21:26:22 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:22 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:22 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:22 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:22 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:22 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:22 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:22 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:22 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:22 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:22 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:22 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:22 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:22 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:22 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:22 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:22 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:22 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:22 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:22 --> Total execution time: 0.2078
+DEBUG - 2013-06-14 21:26:24 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:24 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:24 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:25 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:25 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:25 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:25 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:25 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:25 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:25 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:25 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:25 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:25 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:25 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:25 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:25 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:25 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:25 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:26:25 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:25 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:25 --> Total execution time: 0.2136
+DEBUG - 2013-06-14 21:26:27 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:27 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:27 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:27 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:27 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:27 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:27 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:27 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:27 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:27 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:27 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:27 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:27 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:27 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:27 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:27 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:27 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:27 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:27 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:27 --> Total execution time: 0.2164
+DEBUG - 2013-06-14 21:26:29 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:29 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:29 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:29 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:29 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:29 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:29 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:30 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:30 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:30 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:30 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:30 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:30 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:30 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:30 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:30 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:30 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:30 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:30 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:30 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:30 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:30 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:26:30 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:30 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:30 --> Total execution time: 0.2143
+DEBUG - 2013-06-14 21:26:34 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:34 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:34 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:34 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:34 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:34 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:35 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:35 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:35 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:35 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:35 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:35 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:35 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:35 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:35 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:35 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:35 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:35 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:35 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:35 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:35 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:35 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:35 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:35 --> Total execution time: 0.2119
+DEBUG - 2013-06-14 21:26:37 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:37 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:37 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:37 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:37 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:37 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:37 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:37 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:37 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:37 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:37 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:37 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:37 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:37 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:37 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:37 --> File loaded: application/views/form/end_view.php
+DEBUG - 2013-06-14 21:26:37 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:37 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:37 --> Total execution time: 0.2156
+DEBUG - 2013-06-14 21:26:39 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:39 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:39 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:39 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:39 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:39 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:39 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:39 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:39 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:39 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:39 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:39 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:39 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:39 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:39 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:39 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:39 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:26:39 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:39 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:39 --> Total execution time: 0.2144
+DEBUG - 2013-06-14 21:26:40 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:40 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:40 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:40 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:40 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:40 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:40 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:40 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:40 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:40 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:40 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:40 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:40 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:40 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:40 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:40 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:26:40 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:40 --> test
+DEBUG - 2013-06-14 21:26:40 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:40 --> Total execution time: 0.2026
+DEBUG - 2013-06-14 21:26:42 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:42 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:42 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:42 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:42 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:42 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:42 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:42 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:42 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:42 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:42 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:42 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:42 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:42 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:26:42 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:42 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:42 --> Total execution time: 0.1883
+DEBUG - 2013-06-14 21:26:49 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:49 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:49 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:49 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:49 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:49 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:49 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:49 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:49 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:49 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:49 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:49 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:49 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:50 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:50 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:50 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:50 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:26:50 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:50 --> test
+DEBUG - 2013-06-14 21:26:50 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:50 --> Total execution time: 0.1959
+DEBUG - 2013-06-14 21:26:51 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:51 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:51 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:51 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:51 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:51 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:51 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:51 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:51 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:51 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:51 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:51 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:51 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:51 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:51 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:51 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:26:51 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:51 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:51 --> Total execution time: 0.2081
+DEBUG - 2013-06-14 21:26:53 --> Config Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:26:53 --> URI Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Router Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Output Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Security Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Input Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:26:53 --> Language Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:26:53 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:26:53 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:53 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:26:53 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:26:53 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:26:53 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:26:53 --> Session Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:26:53 --> Session routines successfully run
+DEBUG - 2013-06-14 21:26:53 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:26:53 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> Model Class Initialized
+DEBUG - 2013-06-14 21:26:53 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:26:53 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:26:53 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:26:53 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:26:53 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:26:53 --> Final output sent to browser
+DEBUG - 2013-06-14 21:26:53 --> Total execution time: 0.2119
+DEBUG - 2013-06-14 21:27:45 --> Config Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:27:45 --> URI Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Router Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Output Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Security Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Input Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:27:45 --> Language Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:27:45 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:27:45 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:27:45 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:27:45 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:27:45 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:27:45 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:27:45 --> Session Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:27:45 --> Session routines successfully run
+DEBUG - 2013-06-14 21:27:45 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:27:45 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:27:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:27:46 --> Model Class Initialized
+DEBUG - 2013-06-14 21:27:46 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:27:46 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:27:46 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:27:46 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:27:46 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:27:46 --> Final output sent to browser
+DEBUG - 2013-06-14 21:27:46 --> Total execution time: 0.2131
+DEBUG - 2013-06-14 21:27:47 --> Config Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:27:47 --> URI Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Router Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Output Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Security Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Input Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:27:47 --> Language Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:27:47 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:27:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:27:47 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:27:47 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:27:47 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:27:47 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:27:47 --> Session Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:27:47 --> Session routines successfully run
+DEBUG - 2013-06-14 21:27:47 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:27:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:27:47 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:27:47 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:27:47 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:27:47 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:27:47 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:27:47 --> Final output sent to browser
+DEBUG - 2013-06-14 21:27:47 --> Total execution time: 0.2132
+DEBUG - 2013-06-14 21:28:04 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:04 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:04 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:05 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:05 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:05 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:05 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:05 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:05 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:05 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:05 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:05 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:05 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:05 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:05 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:05 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:05 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:05 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:05 --> Total execution time: 1.2368
+DEBUG - 2013-06-14 21:28:06 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:06 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:06 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:06 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:06 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:06 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:06 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:06 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:06 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:06 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:06 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:06 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:06 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:06 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:06 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:06 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:06 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:06 --> Total execution time: 0.2126
+DEBUG - 2013-06-14 21:28:07 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:07 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:07 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:07 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:07 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:07 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:07 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:07 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:07 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:07 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:07 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:07 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:07 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:07 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:07 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:07 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:07 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:07 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:07 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:07 --> Total execution time: 0.2217
+DEBUG - 2013-06-14 21:28:26 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:26 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:26 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:26 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:26 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:26 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:26 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:26 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:26 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:26 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:26 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:26 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:26 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:26 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:26 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:26 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:26 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:26 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:26 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:26 --> Total execution time: 0.2066
+DEBUG - 2013-06-14 21:28:32 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:32 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:32 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:32 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:32 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:32 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:32 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:32 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:32 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:32 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:32 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:32 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:32 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:32 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:32 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:32 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:28:32 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:32 --> test
+DEBUG - 2013-06-14 21:28:32 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:32 --> Total execution time: 0.1993
+DEBUG - 2013-06-14 21:28:33 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:33 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:33 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:33 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:33 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:33 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:33 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:33 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:33 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:33 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:33 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:33 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:33 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:33 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:34 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:34 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:28:34 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:34 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:34 --> Total execution time: 0.2000
+DEBUG - 2013-06-14 21:28:34 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:34 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:34 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:34 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:34 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:35 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:35 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:35 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:35 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:35 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:35 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:35 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:35 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:35 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:35 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:35 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:35 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:35 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:35 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:35 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:35 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:28:35 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:35 --> test
+DEBUG - 2013-06-14 21:28:35 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:35 --> Total execution time: 0.1944
+DEBUG - 2013-06-14 21:28:36 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:36 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:36 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:36 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:36 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:36 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:36 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:36 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:36 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:36 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:36 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:36 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:36 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:36 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:36 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:36 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:28:36 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:36 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:36 --> Total execution time: 0.1985
+DEBUG - 2013-06-14 21:28:37 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:37 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:37 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:37 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:37 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:37 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:37 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:37 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:37 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:37 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:37 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:37 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:37 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:37 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:37 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:37 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:37 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:37 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:37 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:37 --> Total execution time: 0.2139
+DEBUG - 2013-06-14 21:28:40 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:40 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:40 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:40 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:40 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:40 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:40 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:40 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:40 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:40 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:40 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:40 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:40 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:40 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:40 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:40 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:40 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:28:40 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:40 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:40 --> Total execution time: 0.2122
+DEBUG - 2013-06-14 21:28:42 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:42 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:42 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:42 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:42 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:42 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:42 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:42 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:42 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:42 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:42 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:42 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:42 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:42 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:42 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:28:42 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:42 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:42 --> Total execution time: 0.2079
+DEBUG - 2013-06-14 21:28:44 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:44 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:44 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:44 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:44 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:44 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:44 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:44 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:44 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:44 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:44 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:44 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:44 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:44 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:44 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:44 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:44 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:28:44 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:44 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:44 --> Total execution time: 0.2095
+DEBUG - 2013-06-14 21:28:45 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:45 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:45 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:45 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:45 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:45 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:45 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:45 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:45 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:45 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:45 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:45 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:45 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:45 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:45 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:45 --> File loaded: application/views/form/end_view.php
+DEBUG - 2013-06-14 21:28:45 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:45 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:45 --> Total execution time: 0.2155
+DEBUG - 2013-06-14 21:28:47 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:47 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:47 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:47 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:47 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:47 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:47 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:47 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:47 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:47 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:47 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:47 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:47 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:47 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:47 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:28:47 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:47 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:47 --> Total execution time: 0.2167
+DEBUG - 2013-06-14 21:28:51 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:51 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:51 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:51 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:51 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:51 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:51 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:51 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:51 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:51 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:51 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:51 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:51 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:51 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:51 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:51 --> File loaded: application/views/form/end_view.php
+DEBUG - 2013-06-14 21:28:51 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:51 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:51 --> Total execution time: 0.2361
+DEBUG - 2013-06-14 21:28:55 --> Config Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:28:55 --> URI Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Router Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Output Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Security Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Input Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:28:55 --> Language Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:28:55 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:28:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:55 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:28:55 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:28:55 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:28:55 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:28:55 --> Session Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:28:55 --> Session routines successfully run
+DEBUG - 2013-06-14 21:28:55 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:28:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> Model Class Initialized
+DEBUG - 2013-06-14 21:28:55 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:28:55 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:28:55 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:28:55 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:28:55 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:28:55 --> Final output sent to browser
+DEBUG - 2013-06-14 21:28:55 --> Total execution time: 0.1950
+DEBUG - 2013-06-14 21:29:50 --> Config Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:29:50 --> URI Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Router Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Output Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Security Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Input Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:29:50 --> Language Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:29:50 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:29:50 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:29:50 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:29:50 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:29:50 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:29:50 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:29:50 --> Session Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:29:50 --> Session routines successfully run
+DEBUG - 2013-06-14 21:29:50 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:29:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> Model Class Initialized
+DEBUG - 2013-06-14 21:29:50 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:29:50 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:29:50 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:29:50 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:29:50 --> test
+DEBUG - 2013-06-14 21:29:50 --> Final output sent to browser
+DEBUG - 2013-06-14 21:29:50 --> Total execution time: 0.2253
+DEBUG - 2013-06-14 21:29:59 --> Config Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:29:59 --> URI Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Router Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Output Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Security Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Input Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:29:59 --> Language Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:29:59 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:29:59 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:00 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:00 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:00 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:00 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:00 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:00 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:00 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:00 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:00 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:00 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:00 --> Helper loaded: form_helper
+DEBUG - 2013-06-14 21:30:00 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:00 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:00 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:00 --> File loaded: application/views/login/form_view.php
+DEBUG - 2013-06-14 21:30:00 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:00 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:00 --> Total execution time: 0.1937
+DEBUG - 2013-06-14 21:30:04 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:04 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:04 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:04 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:04 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:04 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:04 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:04 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:04 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:04 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:04 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:05 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:05 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> 174288@student.pwr.wroc.pl 
+DEBUG - 2013-06-14 21:30:05 --> 1
+DEBUG - 2013-06-14 21:30:05 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:05 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:05 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:05 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:05 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:05 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:05 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:05 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:05 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:05 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:05 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:05 --> File loaded: application/views/home/list_view.php
+DEBUG - 2013-06-14 21:30:05 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:05 --> test
+DEBUG - 2013-06-14 21:30:05 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:05 --> Total execution time: 0.2070
+DEBUG - 2013-06-14 21:30:06 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:06 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:06 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:06 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:06 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:06 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:06 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:06 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:06 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:06 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:06 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:06 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:06 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:06 --> File loaded: application/views/form/start_view.php
+DEBUG - 2013-06-14 21:30:06 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:06 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:06 --> Total execution time: 0.2039
+DEBUG - 2013-06-14 21:30:08 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:08 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:08 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:08 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:08 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:08 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:08 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:08 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:08 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:08 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:08 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:08 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:08 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:08 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:08 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:08 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:30:08 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:30:08 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:08 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:08 --> Total execution time: 0.2137
+DEBUG - 2013-06-14 21:30:12 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:12 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:12 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:12 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:12 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:12 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:12 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:12 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:12 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:12 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:12 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:12 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:12 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:12 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:12 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:12 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:30:12 --> File loaded: application/views/form/item/question_open_view.php
+DEBUG - 2013-06-14 21:30:12 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:12 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:12 --> Total execution time: 0.2265
+DEBUG - 2013-06-14 21:30:14 --> Config Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Hooks Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Utf8 Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> UTF-8 Support Enabled
+DEBUG - 2013-06-14 21:30:14 --> URI Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Router Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Output Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Security Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Input Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-14 21:30:14 --> Language Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Loader Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Helper loaded: url_helper
+DEBUG - 2013-06-14 21:30:14 --> Helper loaded: language_helper
+DEBUG - 2013-06-14 21:30:14 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:14 --> Database Driver Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Language file loaded: language/pl/datamapper_lang.php
+DEBUG - 2013-06-14 21:30:14 --> Helper loaded: inflector_helper
+DEBUG - 2013-06-14 21:30:14 --> Helper loaded: security_helper
+DEBUG - 2013-06-14 21:30:14 --> Config file loaded: application/config/datamapper.php
+DEBUG - 2013-06-14 21:30:14 --> Session Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Helper loaded: string_helper
+DEBUG - 2013-06-14 21:30:14 --> Session routines successfully run
+DEBUG - 2013-06-14 21:30:14 --> Controller Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Language file loaded: language/pl/psi_lang.php
+DEBUG - 2013-06-14 21:30:14 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> Model Class Initialized
+DEBUG - 2013-06-14 21:30:14 --> File loaded: application/views/base/head_view.php
+DEBUG - 2013-06-14 21:30:14 --> File loaded: application/views/base/header_view.php
+DEBUG - 2013-06-14 21:30:14 --> File loaded: application/views/form/item_view.php
+DEBUG - 2013-06-14 21:30:14 --> File loaded: application/views/form/item/question_close_view.php
+DEBUG - 2013-06-14 21:30:14 --> File loaded: application/views/base/footer_view.php
+DEBUG - 2013-06-14 21:30:14 --> Final output sent to browser
+DEBUG - 2013-06-14 21:30:14 --> Total execution time: 0.2152
