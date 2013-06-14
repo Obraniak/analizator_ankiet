@@ -18,7 +18,6 @@ class FormSummary {
 
 }
 
-
 class FormQuestionData {
 	public $name = '';
 	public $question = '';
@@ -28,6 +27,7 @@ class FormQuestionData {
 }
 
 class FormQuestionDetailsData {
+
 	public $id = '';
 	public $text = '';
 	public $option = '';

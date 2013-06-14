@@ -67,7 +67,7 @@ class Form_model extends  CI_Model {
 		return null;
 	}
 
-	public function getTestFormSummary($id_form) {
+	public function getTestFormSummary($id_form, $user_id) {
 
 		$tmp = new FormSummary();
 
@@ -81,9 +81,22 @@ class Form_model extends  CI_Model {
 			switch($item -> type ) {
 				case 0 : {
 					$tmp -> open_count = $tmp -> open_count + 1;
+
+					$data = $this -> getTestFormQuestionOpenAnswer($user_id, $id_form, $item -> id);
+
+					if ($data -> id > 0) {
+						$tmp -> answer_open = $tmp -> answer_open + 1;
+					}
+
 					break;
 				}case 1 : {
 					$tmp -> close_count = $tmp -> close_count + 1;
+					
+					$data = $this -> getTestFormQuestionCloseAnswer($user_id, $id_form, $item -> id);
+
+					if ($data -> id > 0) {
+						$tmp -> answer_close = $tmp -> answer_close + 1;
+					}
 					break;
 				}
 			}
@@ -102,7 +115,7 @@ class Form_model extends  CI_Model {
 
 		array_push($res, $tmp);
 
-		$sql = "SELECT  p.ID_Pytanie,a.Nazwa,p.Tekst,COUNT(z.ID_Zamkniete) as type
+		$sql = "SELECT   p.ID_Pytanie,a.Nazwa,p.Tekst,COUNT(z.ID_Zamkniete) as type
 				FROM ankieta a
 				JOIN `szablonankiety` sz ON a.SzablonAnkietyID_SzablonAnkiety = sz.ID_SzablonAnkiety
 				JOIN `pytanie` p ON sz.ID_SzablonAnkiety = p.SzablonAnkietyID_SzablonAnkiety
@@ -174,31 +187,29 @@ class Form_model extends  CI_Model {
 		$query = $this -> db -> query($sql, array($id_user, $id_question, $id_form));
 
 		foreach ($query -> result_array() as $row) {
-			$tmp -> id = $row['ID_Zamkniete'];
+			$tmp -> id = $row['ID_Odpowiedz'];
 			$tmp -> text = $row['Tekst'];
 		}
 
 		return $tmp;
 	}
 
-	public function getTestFormQustionOpenDetail($id) {
+	public function getTestFormQuestionCloseAnswer($id_user, $id_form, $id_question) {
 
-		// $sql = "SELECT  p.ID_Pytanie, p.Tekst
-		// FROM pytanie p
-		// WHERE p.ID_Pytanie = ?";
-		//
-		// $query = $this -> db -> query($sql, array($id));
-		//
-		// foreach ($query -> result_array() as $row) {
-		//
-		// $tmp = new FormQuestionDetailsData();
-		// $tmp -> id = $row['ID_Pytanie'];
-		// $tmp -> text = $row['Tekst'];
-		//
-		// return $tmp;
-		// }
+		$tmp = new FormQuestionDetailsData();
+		$tmp -> id = -1;
 
-		return null;
+		$sql = "SELECT w.ID_Wybor FROM wybor w
+				JOIN zamkniete z ON z.ID_Zamkniete = w.ZamknieteID_Zamkniete
+				WHERE w.StudentID_Student = ? AND w.AnkietaID_Ankieta = ?  AND z.PytanieID_Pytanie = ?";
+
+		$query = $this -> db -> query($sql, array($id_user, $id_form, $id_question));
+
+		foreach ($query -> result_array() as $row) {
+			$tmp -> id = $row['ID_Wybor'];
+		}
+
+		return $tmp;
 	}
 
 	public function getTestFormQustionCloseAnswer($id_user, $id_form, $id_question) {
@@ -245,26 +256,47 @@ class Form_model extends  CI_Model {
 		return $res;
 	}
 
-	public function getTestFormQustionCloseDetail($id) {
+	public function updateOpenAnswerDetails($form_id, $user_id, $question_id, $text) {
 
-		// $sql = "SELECT  z.ID_Zamkniete,oo.Nazwa,oo.ID_OpcjaOdpowiedzi
-		// FROM zamkniete z
-		// JOIN `opcjaodpowiedzi` oo ON z.ID_Zamkniete = oo.ID_OpcjaOdpowiedzi
-		// WHERE z.ID_Zamkniete = ?";
-		//
-		// $query = $this -> db -> query($sql, array($id));
-		//
-		// foreach ($query -> result_array() as $row) {
-		//
-		// $tmp = new FormQuestionDetailsData();
-		// $tmp -> id = $row['ID_Zamkniete'];
-		// $tmp -> option = $row['ID_OpcjaOdpowiedzi'];
-		// $tmp -> text = $row['Nazwa'];
-		//
-		// return $tmp;
-		// }
+		$old = $this -> getTestFormQuestionOpenAnswer($form_id, $user_id, $question_id);
 
-		return null;
+		if ($old -> id > 0) {
+
+			$sql = "UPDATE odpowiedz SET Tekst = ?  WHERE ID_Odpowiedz = ? ";
+			$this -> db -> query($sql, array($text, $old -> id));
+
+		} else {
+
+			$sql = "INSERT INTO odpowiedz (
+			Tekst,
+			AnkietaID_Ankieta,
+			StudentID_Student,
+			PytanieID_Pytanie
+			) VALUES (?,?,?,?)";
+			$this -> db -> query($sql, array($text, $form_id, $user_id, $question_id));
+		}
+
+	}
+
+	public function updateClosedAnswerDetails($form_id, $user_id, $question_id, $option) {
+
+		$old = $this -> getTestFormQuestionCloseAnswer($form_id, $user_id, $question_id);
+
+		if ($old -> id > 0) {
+
+			$sql = "UPDATE wybor SET ZamknieteID_Zamkniete = ?  WHERE ID_Wybor = ? ";
+			$this -> db -> query($sql, array($option, $old -> id));
+
+		} else {
+
+			$sql = "INSERT INTO wybor (
+			AnkietaID_Ankieta,
+			StudentID_Student,
+			ZamknieteID_Zamkniete
+			) VALUES (?,?,?)";
+			$this -> db -> query($sql, array($form_id, $user_id, $option));
+		}
+
 	}
 
 }

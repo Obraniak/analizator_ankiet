@@ -86,7 +86,7 @@ class Form extends CI_Controller {
 
 		$form = $this -> Form_model -> getTestForm($id);
 
-		$summary = $this -> Form_model -> getTestFormSummary($this -> session -> userdata('current_form_id'));
+		$summary = $this -> Form_model -> getTestFormSummary($this -> session -> userdata('current_form_id'), $this -> session -> userdata('user_id'));
 
 		$data['form_name'] = $form -> name;
 		$data['form_course'] = $form -> course;
@@ -122,17 +122,12 @@ class Form extends CI_Controller {
 		$question_detail['form_questions_id'] = $id;
 
 		if ($question_header['form_question'] -> type == 0) {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQuestionOpenAnswer($this -> session -> userdata('user_id'),
-																											 $this -> session -> userdata('current_form_id'), 
-																											 $this -> session -> userdata('current_form_details_id'));
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQuestionOpenAnswer($this -> session -> userdata('user_id'), $this -> session -> userdata('current_form_id'), $this -> session -> userdata('current_form_details_id'));
 			$this -> load -> view('form/item/question_open_view', $question_detail);
 		} else {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetails($this -> session -> userdata('current_form_id'),
-																											  $this -> session -> userdata('current_form_details_id'));
-																											  
-			$question_detail['form_question_answer'] = $this -> Form_model -> getTestFormQustionCloseAnswer($this -> session -> userdata('user_id'),
-																											$this -> session -> userdata('current_form_id'),
-																											$this -> session -> userdata('current_form_details_id'));
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetails($this -> session -> userdata('current_form_id'), $this -> session -> userdata('current_form_details_id'));
+
+			$question_detail['form_question_answer'] = $this -> Form_model -> getTestFormQustionCloseAnswer($this -> session -> userdata('user_id'), $this -> session -> userdata('current_form_id'), $this -> session -> userdata('current_form_details_id'));
 			$this -> load -> view('form/item/question_close_view', $question_detail);
 		}
 
@@ -147,16 +142,48 @@ class Form extends CI_Controller {
 		$this -> firstItem($this -> session -> userdata('current_form_id'));
 	}
 
+	function close() {
+		if (isset($_POST)) {
+			$content = file_get_contents('php://input');
+
+			$entity = json_decode($content);
+
+			$this -> load -> model('Form_model');
+			
+			$this -> Form_model -> closeForm($this -> session -> userdata('current_form_id'),
+											 $this -> session -> userdata('user_id'));
+			
+		}
+	}
+
 	function update() {
 		if (isset($_POST)) {
 			$content = file_get_contents('php://input');
 
 			$entity = json_decode($content);
 
-			log_message('DEBUG', $this -> session -> userdata('current_form_id'));
-			log_message('DEBUG', $entity -> data[0] -> id);
-			log_message('DEBUG', $entity -> data[1] -> answer);
+			$this -> load -> model('Form_model');
 
+			log_message('ERROR', 'Update data');
+
+			try {
+
+				if ($entity -> data[2] -> type == "0") {
+
+					$this -> Form_model -> updateOpenAnswerDetails($this -> session -> userdata('current_form_id'), $this -> session -> userdata('user_id'), $entity -> data[0] -> id, $entity -> data[1] -> answer);
+
+					log_message('ERROR', 'Update sucesss');
+
+				} else {
+
+					$this -> Form_model -> updateClosedAnswerDetails($this -> session -> userdata('current_form_id'), $this -> session -> userdata('user_id'), $entity -> data[0] -> id, $entity -> data[1] -> option);
+
+					log_message('ERROR', 'Add sucesss');
+				}
+
+			} catch(Exception $e) {
+				log_message('ERROR', $e);
+			}
 		}
 
 	}

@@ -20,7 +20,7 @@
 		jsonArg1.id = <?php echo '"' . $form_questions_id . '";'; ?>
 
 		var jsonArg2 = new Object();
-		jsonArg2.answer = $("#txtAnswer").val();
+		jsonArg2.option = $('input[name="answer"]:checked').val();
 
 		var jsonArg3 = new Object();
 		jsonArg3.type = "1";
@@ -59,12 +59,13 @@
 				$input = '<input type="radio" id="answer' ;
 				$input = $input . $question -> id ;
 				$input = $input . '"  name="answer" value="' ;
-				$input = $input . $question -> option;
+				$input = $input . $question -> id;
+				$input = $input . '"';
 				
 				if($question -> id == $form_question_answer -> id)
 				{ $input = $input . ' checked '; } 
 				
-				$input = $input . '" />';
+				$input = $input . ' />';
 				
 				echo $input;
 				echo '<label for="answer1">' . $question -> text . '</label></td>';
