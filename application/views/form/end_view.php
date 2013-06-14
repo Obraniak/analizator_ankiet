@@ -7,7 +7,7 @@
 	<h3><?php echo lang('summary'); ?></h3>
 
 	<p>
-		<?php echo lang('complete_level'); ?>
+		<?php echo lang('complete_level').': '; ?>
 	</p>
 	<p>
 		<?php echo lang('open_question') . ' ' . $answer_open_question . ' / ' . $open_question_count; ?>

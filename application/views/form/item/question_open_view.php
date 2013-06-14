@@ -43,7 +43,7 @@ function onError() { alert(<?php echo "'" . lang('error_occured') . "'"; ?>);}
 	<div id="answers">
 		<table>
 			<tr>
-				<td>				<textarea name="answer" id="txtAnswer" style="width: 700px; height: 150px;"></textarea></td>
+				<td>				<textarea name="answer" id="txtAnswer" style="width: 740px; height: 150px;"></textarea></td>
 			</tr>
 			<tr>
 				<td>
