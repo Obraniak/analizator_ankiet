@@ -1,8 +1,8 @@
 <div class="app_content">
 
-	<p>
+	<h2>
 		<?php echo $form_name; ?>
-	</p>
+	</h2>
 
 	<h3><?php echo lang('summary'); ?></h3>
 
