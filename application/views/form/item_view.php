@@ -1,4 +1,4 @@
-<div class="app_content">
+<div class="questions">
 	<h2>
 		<?php echo $form_question -> name; ?>
 	</h2>

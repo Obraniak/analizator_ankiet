@@ -47,7 +47,7 @@
 		function onError() {alert(<?php echo "'". lang('error_occured')."'"?>);}
 	</script>
 
-	<div id="question">
+	<div id="answers">
 		<table>
 
 			<?php

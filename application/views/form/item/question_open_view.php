@@ -40,7 +40,7 @@ function onError() { alert(<?php echo "'" . lang('error_occured') . "'"; ?>);}
 
 	</script>
 
-	<div id="question">
+	<div id="answers">
 		<table>
 			<tr>
 				<td>				<textarea name="answer" id="txtAnswer" style="width: 500px; height: 100px;"></textarea></td>

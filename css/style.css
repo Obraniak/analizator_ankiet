@@ -41,17 +41,7 @@ body {
 	margin: 5px 0px;
 	font-smooth: always;
 }
-.app_header_image {
 
-}
-
-.app_header_title {
-
-}
-
-.app_header_name {
-
-}
 
 .app_footer {
     padding: 5px 20px;
@@ -60,7 +50,7 @@ body {
 }
 
 .app_content {
-	padding: 20px 10px;
+	padding: 10px 10px 10px 20px;
 }
 
 .app_content table {
@@ -72,7 +62,9 @@ body {
 #logininfo {
 	text-align:right;
 	margin-right:20px;
+	line-height:20px;
 }
+
 
 #loginform {
     width: 300px;
@@ -117,8 +109,11 @@ table.bottomnav {
 	margin-right:20px;
 }
 
-#question table {
+#answers table {
 	border:none;
+}
+.questions {
+	padding: 10px 0px 0px 20px;	
 }
 /*---------------------------------BUTTONS--------------------------------------*/
 
