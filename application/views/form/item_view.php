@@ -1,8 +1,8 @@
-<div class="app_content">
-	<p>
+<div class="questions">
+	<h2>
 		<?php echo $form_question -> name; ?>
-	</p>
+	</h2>
 	<p>
-		<?php echo lang('question') . $form_question -> question; ?>
+		<?php echo lang('question').": " . $form_question -> question; ?>
 	</p>
 </div>

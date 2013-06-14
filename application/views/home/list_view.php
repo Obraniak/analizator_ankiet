@@ -2,11 +2,11 @@
 
 
 <div id="logininfo">
-
-	<?php  echo lang('user_loged') . ' ' . $user; ?>
 	<?php echo '<form action="' . site_url('/login') . '">'; ?>
 	<input type="submit" class="button" value="<?php echo lang('logout'); ?>">
 	<?php 	echo '</form>'; ?>
+	<p><?php  echo lang('user_loged') . ': ' . $user; ?></p>
+
 </div>
 	<div>
 		<table border="1" class="kursy">
@@ -30,11 +30,11 @@
 				<?php 	echo '</form>'; ?>
 			</tr>
 			<tr>
-				<td><?php echo lang('course'); ?></td>
-				<td><?php echo lang('form_name'); ?></td>
-				<td><?php echo lang('date'); ?></td>
-				<td><?php echo lang('status'); ?></td>
-				<td><?php echo lang('action'); ?></td>
+				<th><?php echo lang('course'); ?></th>
+				<th><?php echo lang('form_name'); ?></th>
+				<th><?php echo lang('date'); ?></th>
+				<th><?php echo lang('status'); ?></th>
+				<th><?php echo lang('action'); ?></th>
 			</tr>
 			<?php
 			foreach ($form_list as $form) {

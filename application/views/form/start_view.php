@@ -1,19 +1,19 @@
 <div class="app_content">
 	<?php echo '<script src="' . base_url('js/script.js') . '"></script>'; ?>
 
-	<p>
-		<?php echo lang('form_name') . $form_name; ?>
-	</p>
+	<h2>
+		<?php echo lang('form_name') .": ". $form_name; ?>
+	</h2>
 	<div>
 		<div>
+			<h3>
+				<?php echo lang('course') .": ". $form_course; ?>
+			</h3>
 			<p>
-				<?php echo lang('course') . $form_course; ?>
+				<?php echo lang('title') .": ". $form_title; ?>
 			</p>
 			<p>
-				<?php echo lang('title') . $form_title; ?>
-			</p>
-			<p>
-				<?php echo lang('remarks') . $form_description; ?>
+				<?php echo lang('remarks') .": ". $form_description; ?>
 			</p>
 		</div>
 
