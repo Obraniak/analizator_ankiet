@@ -18,6 +18,11 @@ function next() {
 }
 
 function before() {
+
+	if (new Number(document.forms["navi"]["item"].value) - 1 == 0) {
+		return begin();
+	}
+
 	document.forms["navi"]["item"].value = new Number(document.forms["navi"]["item"].value) - 1;
 	return true;
 }

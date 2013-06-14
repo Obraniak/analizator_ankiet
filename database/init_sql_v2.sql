@@ -1,8 +1,8 @@
 -- --------------------------------------------------------
 -- Host:                         127.0.0.1
 -- Wersja serwera:               5.5.24-log - MySQL Community Server (GPL)
--- Serwer OS:                    Win32
--- HeidiSQL Wersja:              8.0.0.4396
+-- Serwer OS:                    Win64
+-- HeidiSQL Wersja:              8.0.0.4413
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -33,10 +33,16 @@ CREATE TABLE IF NOT EXISTS `ankieta` (
   CONSTRAINT `FKAnkieta791412` FOREIGN KEY (`KursID_Kurs`) REFERENCES `kurs` (`ID_Kurs`),
   CONSTRAINT `FKAnkieta695978` FOREIGN KEY (`SzablonAnkietyID_SzablonAnkiety`) REFERENCES `szablonankiety` (`ID_SzablonAnkiety`),
   CONSTRAINT `FKAnkieta973992` FOREIGN KEY (`StatusID_Status`) REFERENCES `status` (`ID_Status`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.ankieta: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.ankieta: ~4 rows (około)
+DELETE FROM `ankieta`;
 /*!40000 ALTER TABLE `ankieta` DISABLE KEYS */;
+INSERT INTO `ankieta` (`ID_Ankieta`, `StatusID_Status`, `Temat`, `Nazwa`, `Uwagi`, `SzablonAnkietyID_SzablonAnkiety`, `KursID_Kurs`) VALUES
+	(1, 1, 'Ocena jakosci ksztalcenia', 'Ankieta 2', 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety', 1, 1),
+	(5, 2, 'Ocena jakosci ksztalcenia', 'Ankieta 7', 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety', 1, 2),
+	(7, 3, 'Ocena jakosci ksztalcenia', 'Ankieta 3', 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety', 1, 4),
+	(11, 1, 'Ocena jakosci ksztalcenia', 'Ankieta 10', 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety', 1, 3);
 /*!40000 ALTER TABLE `ankieta` ENABLE KEYS */;
 
 
@@ -46,10 +52,13 @@ CREATE TABLE IF NOT EXISTS `grupaankietowa` (
   `ID_GrupaAnkietowa` int(10) NOT NULL AUTO_INCREMENT,
   `Nazwa` varchar(200) NOT NULL,
   PRIMARY KEY (`ID_GrupaAnkietowa`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.grupaankietowa: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.grupaankietowa: ~1 rows (około)
+DELETE FROM `grupaankietowa`;
 /*!40000 ALTER TABLE `grupaankietowa` DISABLE KEYS */;
+INSERT INTO `grupaankietowa` (`ID_GrupaAnkietowa`, `Nazwa`) VALUES
+	(1, 'Ankiety semestralne');
 /*!40000 ALTER TABLE `grupaankietowa` ENABLE KEYS */;
 
 
@@ -65,8 +74,14 @@ CREATE TABLE IF NOT EXISTS `grupaankietowa_termin` (
   CONSTRAINT `FKGrupaAnkie437672` FOREIGN KEY (`GrupaAnkietowaID_GrupaAnkietowa`) REFERENCES `grupaankietowa` (`ID_GrupaAnkietowa`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.grupaankietowa_termin: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.grupaankietowa_termin: ~1 rows (około)
+DELETE FROM `grupaankietowa_termin`;
 /*!40000 ALTER TABLE `grupaankietowa_termin` DISABLE KEYS */;
+INSERT INTO `grupaankietowa_termin` (`GrupaAnkietowaID_GrupaAnkietowa`, `TerminID_Termin`) VALUES
+	(1, 7),
+	(1, 8),
+	(1, 9),
+	(1, 10);
 /*!40000 ALTER TABLE `grupaankietowa_termin` ENABLE KEYS */;
 
 
@@ -76,10 +91,16 @@ CREATE TABLE IF NOT EXISTS `kurs` (
   `ID_Kurs` int(10) NOT NULL AUTO_INCREMENT,
   `Nazwa` varchar(50) NOT NULL,
   PRIMARY KEY (`ID_Kurs`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.kurs: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.kurs: ~4 rows (około)
+DELETE FROM `kurs`;
 /*!40000 ALTER TABLE `kurs` DISABLE KEYS */;
+INSERT INTO `kurs` (`ID_Kurs`, `Nazwa`) VALUES
+	(1, 'Anliaza matematyczna'),
+	(2, 'Podstawy programowania'),
+	(3, 'Statystyka'),
+	(4, 'Grafika komputerowa');
 /*!40000 ALTER TABLE `kurs` ENABLE KEYS */;
 
 
@@ -101,6 +122,7 @@ CREATE TABLE IF NOT EXISTS `odpowiedz` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Dumping data for table psi_ankietyzacja.odpowiedz: ~0 rows (około)
+DELETE FROM `odpowiedz`;
 /*!40000 ALTER TABLE `odpowiedz` DISABLE KEYS */;
 /*!40000 ALTER TABLE `odpowiedz` ENABLE KEYS */;
 
@@ -110,14 +132,17 @@ DROP TABLE IF EXISTS `opcjaodpowiedzi`;
 CREATE TABLE IF NOT EXISTS `opcjaodpowiedzi` (
   `ID_OpcjaOdpowiedzi` int(10) NOT NULL AUTO_INCREMENT,
   `Nazwa` varchar(20) NOT NULL,
-  `ZamknieteID_Zamkniete` int(10) NOT NULL,
-  PRIMARY KEY (`ID_OpcjaOdpowiedzi`),
-  KEY `FKOpcjaOdpow11752` (`ZamknieteID_Zamkniete`),
-  CONSTRAINT `FKOpcjaOdpow11752` FOREIGN KEY (`ZamknieteID_Zamkniete`) REFERENCES `zamkniete` (`ID_Zamkniete`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`ID_OpcjaOdpowiedzi`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.opcjaodpowiedzi: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.opcjaodpowiedzi: ~4 rows (około)
+DELETE FROM `opcjaodpowiedzi`;
 /*!40000 ALTER TABLE `opcjaodpowiedzi` DISABLE KEYS */;
+INSERT INTO `opcjaodpowiedzi` (`ID_OpcjaOdpowiedzi`, `Nazwa`) VALUES
+	(3, 'Łatwy'),
+	(4, 'Przecietny'),
+	(5, 'Trudny'),
+	(6, 'Nie mam zdania');
 /*!40000 ALTER TABLE `opcjaodpowiedzi` ENABLE KEYS */;
 
 
@@ -130,10 +155,16 @@ CREATE TABLE IF NOT EXISTS `pytanie` (
   PRIMARY KEY (`ID_Pytanie`),
   KEY `FKPytanie352390` (`SzablonAnkietyID_SzablonAnkiety`),
   CONSTRAINT `FKPytanie352390` FOREIGN KEY (`SzablonAnkietyID_SzablonAnkiety`) REFERENCES `szablonankiety` (`ID_SzablonAnkiety`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.pytanie: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.pytanie: ~4 rows (około)
+DELETE FROM `pytanie`;
 /*!40000 ALTER TABLE `pytanie` DISABLE KEYS */;
+INSERT INTO `pytanie` (`ID_Pytanie`, `Tekst`, `SzablonAnkietyID_SzablonAnkiety`) VALUES
+	(2, 'Co sadzisz na temat przedmiotu ?', 1),
+	(3, 'Co sadzisz na temat prowadzacego ?', 1),
+	(4, 'Co sadzisz na temat zadań ?', 1),
+	(6, 'Co sadzisz na temat kolokwium ?', 1);
 /*!40000 ALTER TABLE `pytanie` ENABLE KEYS */;
 
 
@@ -143,10 +174,15 @@ CREATE TABLE IF NOT EXISTS `status` (
   `ID_Status` int(10) NOT NULL AUTO_INCREMENT,
   `Nazwa` varchar(255) NOT NULL,
   PRIMARY KEY (`ID_Status`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.status: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.status: ~3 rows (około)
+DELETE FROM `status`;
 /*!40000 ALTER TABLE `status` DISABLE KEYS */;
+INSERT INTO `status` (`ID_Status`, `Nazwa`) VALUES
+	(1, 'N'),
+	(2, 'Z'),
+	(3, 'R');
 /*!40000 ALTER TABLE `status` ENABLE KEYS */;
 
 
@@ -156,10 +192,13 @@ CREATE TABLE IF NOT EXISTS `student` (
   `ID_Student` int(10) NOT NULL AUTO_INCREMENT,
   `Email` varchar(50) NOT NULL,
   PRIMARY KEY (`ID_Student`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.student: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.student: ~1 rows (około)
+DELETE FROM `student`;
 /*!40000 ALTER TABLE `student` DISABLE KEYS */;
+INSERT INTO `student` (`ID_Student`, `Email`) VALUES
+	(1, '174288@student.pwr.wroc.pl');
 /*!40000 ALTER TABLE `student` ENABLE KEYS */;
 
 
@@ -175,8 +214,11 @@ CREATE TABLE IF NOT EXISTS `student_grupaankietowa` (
   CONSTRAINT `FKStudent_Gr118634` FOREIGN KEY (`StudentID_Student`) REFERENCES `student` (`ID_Student`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.student_grupaankietowa: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.student_grupaankietowa: ~1 rows (około)
+DELETE FROM `student_grupaankietowa`;
 /*!40000 ALTER TABLE `student_grupaankietowa` DISABLE KEYS */;
+INSERT INTO `student_grupaankietowa` (`StudentID_Student`, `GrupaAnkietowaID_GrupaAnkietowa`) VALUES
+	(1, 1);
 /*!40000 ALTER TABLE `student_grupaankietowa` ENABLE KEYS */;
 
 
@@ -184,12 +226,15 @@ CREATE TABLE IF NOT EXISTS `student_grupaankietowa` (
 DROP TABLE IF EXISTS `szablonankiety`;
 CREATE TABLE IF NOT EXISTS `szablonankiety` (
   `ID_SzablonAnkiety` int(10) NOT NULL AUTO_INCREMENT,
-  `Naglowek` varchar(100) NOT NULL,
+  `Naglowek` varchar(50) NOT NULL,
   PRIMARY KEY (`ID_SzablonAnkiety`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.szablonankiety: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.szablonankiety: ~1 rows (około)
+DELETE FROM `szablonankiety`;
 /*!40000 ALTER TABLE `szablonankiety` DISABLE KEYS */;
+INSERT INTO `szablonankiety` (`ID_SzablonAnkiety`, `Naglowek`) VALUES
+	(1, 'Szablon Semestralny');
 /*!40000 ALTER TABLE `szablonankiety` ENABLE KEYS */;
 
 
@@ -204,10 +249,16 @@ CREATE TABLE IF NOT EXISTS `termin` (
   PRIMARY KEY (`ID_Termin`),
   KEY `FKTermin372094` (`AnkietaID_Ankieta`),
   CONSTRAINT `FKTermin372094` FOREIGN KEY (`AnkietaID_Ankieta`) REFERENCES `ankieta` (`ID_Ankieta`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.termin: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.termin: ~4 rows (około)
+DELETE FROM `termin`;
 /*!40000 ALTER TABLE `termin` DISABLE KEYS */;
+INSERT INTO `termin` (`ID_Termin`, `Powiadomienie`, `Koniec`, `Start`, `AnkietaID_Ankieta`) VALUES
+	(7, '2013-06-14 12:14:46', '2013-06-14 12:14:48', '2013-06-14 12:14:49', 1),
+	(8, '2013-06-14 12:22:15', '2013-06-14 12:22:18', '2013-06-14 12:22:20', 5),
+	(9, '2013-06-14 12:22:27', '2013-06-14 12:22:29', '2013-06-14 12:22:30', 7),
+	(10, '2013-06-14 12:22:36', '2013-06-14 12:22:37', '2013-06-14 12:22:38', 11);
 /*!40000 ALTER TABLE `termin` ENABLE KEYS */;
 
 
@@ -228,6 +279,7 @@ CREATE TABLE IF NOT EXISTS `wybor` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Dumping data for table psi_ankietyzacja.wybor: ~0 rows (około)
+DELETE FROM `wybor`;
 /*!40000 ALTER TABLE `wybor` DISABLE KEYS */;
 /*!40000 ALTER TABLE `wybor` ENABLE KEYS */;
 
@@ -239,10 +291,16 @@ CREATE TABLE IF NOT EXISTS `wykladowcy` (
   `Imie` varchar(10) NOT NULL,
   `Nazwisko` varchar(10) NOT NULL,
   PRIMARY KEY (`ID_Wykladowcy`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.wykladowcy: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.wykladowcy: ~4 rows (około)
+DELETE FROM `wykladowcy`;
 /*!40000 ALTER TABLE `wykladowcy` DISABLE KEYS */;
+INSERT INTO `wykladowcy` (`ID_Wykladowcy`, `Imie`, `Nazwisko`) VALUES
+	(1, 'Wykladowca', 'Pierwszy'),
+	(2, 'Wykładowca', 'Drugi'),
+	(3, 'Wykladowca', 'Trzeci'),
+	(4, 'Wykladowca', 'Czwarty');
 /*!40000 ALTER TABLE `wykladowcy` ENABLE KEYS */;
 
 
@@ -258,8 +316,14 @@ CREATE TABLE IF NOT EXISTS `wykladowcy_kurs` (
   CONSTRAINT `FKWykladowcy135346` FOREIGN KEY (`WykladowcyID_Wykladowcy`) REFERENCES `wykladowcy` (`ID_Wykladowcy`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.wykladowcy_kurs: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.wykladowcy_kurs: ~4 rows (około)
+DELETE FROM `wykladowcy_kurs`;
 /*!40000 ALTER TABLE `wykladowcy_kurs` DISABLE KEYS */;
+INSERT INTO `wykladowcy_kurs` (`WykladowcyID_Wykladowcy`, `KursID_Kurs`) VALUES
+	(1, 1),
+	(2, 3),
+	(3, 4),
+	(4, 2);
 /*!40000 ALTER TABLE `wykladowcy_kurs` ENABLE KEYS */;
 
 
@@ -268,14 +332,26 @@ DROP TABLE IF EXISTS `zamkniete`;
 CREATE TABLE IF NOT EXISTS `zamkniete` (
   `ID_Zamkniete` int(10) NOT NULL AUTO_INCREMENT,
   `PytanieID_Pytanie` int(10) NOT NULL,
-  `OpcjaOdpowiedziID_OpcjaOdpiwiedzi` int(10) NOT NULL,
+  `OpcjaOdpowiedziID_OpcjaOdpowiedzi` int(10) NOT NULL,
   PRIMARY KEY (`ID_Zamkniete`),
   KEY `FKZamkniete454632` (`PytanieID_Pytanie`),
+  KEY `FK_zamkniete_opcjaodpowiedzi` (`OpcjaOdpowiedziID_OpcjaOdpowiedzi`),
+  CONSTRAINT `FK_zamkniete_opcjaodpowiedzi` FOREIGN KEY (`OpcjaOdpowiedziID_OpcjaOdpowiedzi`) REFERENCES `opcjaodpowiedzi` (`ID_OpcjaOdpowiedzi`),
   CONSTRAINT `FKZamkniete454632` FOREIGN KEY (`PytanieID_Pytanie`) REFERENCES `pytanie` (`ID_Pytanie`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.zamkniete: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.zamkniete: ~8 rows (około)
+DELETE FROM `zamkniete`;
 /*!40000 ALTER TABLE `zamkniete` DISABLE KEYS */;
+INSERT INTO `zamkniete` (`ID_Zamkniete`, `PytanieID_Pytanie`, `OpcjaOdpowiedziID_OpcjaOdpowiedzi`) VALUES
+	(3, 2, 5),
+	(4, 2, 4),
+	(5, 2, 3),
+	(6, 2, 6),
+	(7, 4, 3),
+	(9, 4, 5),
+	(10, 4, 4),
+	(11, 4, 6);
 /*!40000 ALTER TABLE `zamkniete` ENABLE KEYS */;
 
 
@@ -284,17 +360,23 @@ DROP TABLE IF EXISTS `zapisy`;
 CREATE TABLE IF NOT EXISTS `zapisy` (
   `StudentID_Student` int(10) NOT NULL,
   `KursID_Kurs` int(10) NOT NULL,
-  `Od` time NOT NULL,
-  `Do` time DEFAULT NULL,
+  `Od` datetime NOT NULL,
+  `Do` datetime DEFAULT NULL,
   PRIMARY KEY (`StudentID_Student`,`KursID_Kurs`),
   KEY `FKZapisy929469` (`StudentID_Student`),
   KEY `FKZapisy981294` (`KursID_Kurs`),
-  CONSTRAINT `FKZapisy981294` FOREIGN KEY (`KursID_Kurs`) REFERENCES `kurs` (`ID_Kurs`),
-  CONSTRAINT `FKZapisy929469` FOREIGN KEY (`StudentID_Student`) REFERENCES `student` (`ID_Student`)
+  CONSTRAINT `FKZapisy929469` FOREIGN KEY (`StudentID_Student`) REFERENCES `student` (`ID_Student`),
+  CONSTRAINT `FKZapisy981294` FOREIGN KEY (`KursID_Kurs`) REFERENCES `kurs` (`ID_Kurs`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table psi_ankietyzacja.zapisy: ~0 rows (około)
+-- Dumping data for table psi_ankietyzacja.zapisy: ~4 rows (około)
+DELETE FROM `zapisy`;
 /*!40000 ALTER TABLE `zapisy` DISABLE KEYS */;
+INSERT INTO `zapisy` (`StudentID_Student`, `KursID_Kurs`, `Od`, `Do`) VALUES
+	(1, 1, '2013-02-14 12:16:24', '2013-06-14 12:16:26'),
+	(1, 2, '2013-02-14 12:17:01', '2013-06-14 12:17:05'),
+	(1, 3, '2013-02-14 12:17:25', '2013-06-14 12:17:27'),
+	(1, 4, '2013-02-14 12:16:24', '2013-06-14 12:16:49');
 /*!40000 ALTER TABLE `zapisy` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;

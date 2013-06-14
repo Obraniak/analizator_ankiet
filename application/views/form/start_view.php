@@ -30,10 +30,10 @@
 					<input name="item" type="text" id="item" value="0" size="3" maxlength="3">
 			    </td>
 					<td>
-					<input type="submit" value="->"  onclick="return next();">
+					<input type="submit" value=">"  onclick="return next();">
 					</td>
 					<td>
-					<input type="submit" value="=>"  onclick="return end();">
+					<input type="submit" value="->"  onclick="return end();">
 					</td>
 					<?php 	echo '</form>'; ?>
 				</tr>

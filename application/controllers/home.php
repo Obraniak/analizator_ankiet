@@ -13,7 +13,8 @@ class Home extends CI_Controller {
 
 		$this -> load -> model('Form_model');
 
-		$data = array('user' => $this -> session -> userdata('login'), 'form_list' => $this -> Form_model -> getTestForms());
+		$data = array('user' => $this -> session -> userdata('login'), 
+						'form_list' => $this -> Form_model -> getTestForms($this -> session -> userdata('user_id')));
 
 		$this -> load -> view('base/head_view');
 		$this -> load -> view('base/header_view');

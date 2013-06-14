@@ -16,7 +16,7 @@
 
 		var update_url = <?php echo '"' . base_url('index.php/form/update') . '/";'; ?>
 
-		var jsonArg1 = new Object();
+					var jsonArg1 = new Object();
 		jsonArg1.id = <?php echo '"' . $form_question_detail -> id . '";'; ?>
 					var jsonArg2 = new Object();
 		jsonArg2.answer = $("#txtAnswer").val();
@@ -80,12 +80,12 @@
 			</td>
 			<td>
 			<input name="item" type="text" id="item" value="<?php echo $form_position; ?>" size="3" maxlength="3">
-</td>
-			<td>
-			<input type="submit" value="->"  onclick="return next();">
 			</td>
 			<td>
-			<input type="submit" value="=>"  onclick="return end();">
+			<input type="submit" value=">"  onclick="return next();">
+			</td>
+			<td>
+			<input type="submit" value="->"  onclick="return end();">
 			</td>
 			<?php 	echo '</form>'; ?>
 		</tr>

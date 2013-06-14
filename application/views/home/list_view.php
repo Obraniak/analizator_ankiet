@@ -50,13 +50,13 @@
 			function getState($status) {
 
 				switch($status) {
-					case 0 : {
+					case 'N' : {
 						return lang('form_new');
 					}
-					case 1 : {
+					case 'R' : {
 						return lang('form_start');
 					}
-					case 2 : {
+					case 'Z' : {
 						return lang('form_end');
 					}
 					default : {
@@ -68,13 +68,13 @@
 
 			function getDescription($status) {
 				switch($status) {
-					case 0 : {
+					case 'N' : {
 						return lang('form_go');
 					}
-					case 1 : {
+					case 'R' : {
 						return lang('form_continue');
 					}
-					case 2 : {
+					case 'Z' : {
 						return lang('form_show');
 					}
 					default : {
@@ -86,13 +86,13 @@
 
 			function getViewClass($status) {
 				switch($status) {
-					case 0 : {
+					case 'N' : {
 						return 'btngreen';
 					}
-					case 1 : {
+					case 'R' : {
 						return 'btngrey';
 					}
-					case 2 : {
+					case 'Z' : {
 						return 'btnblue';
 					}
 					default : {

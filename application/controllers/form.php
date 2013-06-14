@@ -86,12 +86,12 @@ class Form extends CI_Controller {
 
 		$form = $this -> Form_model -> getTestForm($id);
 
-		$summary = $this -> Form_model -> getTestFormSummary($id);
+		$summary = $this -> Form_model -> getTestFormSummary($this -> session -> userdata('current_form_id'));
 
 		$data['form_name'] = $form -> name;
 		$data['form_course'] = $form -> course;
 		$data['form_title'] = $form -> title;
-		$data['form_description'] = $form -> description;	
+		$data['form_description'] = $form -> description;
 		$data['form_status'] = $form -> status;
 
 		$data['answer_open_question'] = $summary -> answer_open;
@@ -111,20 +111,19 @@ class Form extends CI_Controller {
 
 		$this -> session -> set_userdata('current_form_details_id', $id);
 
-		$question_header['form_question'] = $this -> Form_model -> getTestFormQuestion($id);
+		$question_header['form_question'] = $this -> Form_model -> getTestFormQuestion($this -> session -> userdata('current_form_id'), $id);
 
 		$question_detail["form_position"] = $this -> session -> userdata('last_position');
-		$question_detail['form_question_detail'] = $this -> Form_model -> getTestFormQustionOpenDetail($id);
 
 		$this -> load -> view('base/head_view');
 		$this -> load -> view('base/header_view');
 		$this -> load -> view('form/item_view', $question_header);
 
-		if ($question_header['form_question'] -> type == 1) {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionOpenDetail($id);
+		if ($question_header['form_question'] -> type == 0) {
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQuestionOpenDetails($this -> session -> userdata('current_form_id'), $id);
 			$this -> load -> view('form/item/question_open_view', $question_detail);
 		} else {
-			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetail($id);
+			$question_detail['form_questions_detail'] = $this -> Form_model -> getTestFormQustionCloseDetails($this -> session -> userdata('current_form_id'), $id);
 			$this -> load -> view('form/item/question_close_view', $question_detail);
 		}
 

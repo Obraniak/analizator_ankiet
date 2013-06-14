@@ -7,72 +7,67 @@ class Form_model extends  CI_Model {
 
 	function __construct() {
 		parent::__construct();
+		$this -> load -> database();
 	}
 
-	public function getTestForms() {
+	public function getTestForms($id) {
 
 		$res = array();
 
-		$tmp = new FormData();
-		$tmp -> course = 'Anliaza matematyczna';
-		$tmp -> name = 'Ankieta 2';
-		$tmp -> date = '2013-06-10';
-		$tmp -> status = 0;
-		$tmp -> id = '001';
-		$tmp -> title = 'Ocena jakosci ksztalcenia';
-		$tmp -> description = 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety';
+		$sql = "SELECT a.ID_Ankieta,s.Nazwa as Status ,a.Nazwa,k.Nazwa as Kurs,t.Koniec FROM ankieta a
+				JOIN `status` s ON a.StatusID_Status = s.ID_Status
+				JOIN `kurs` k ON a.KursID_Kurs = k.ID_Kurs
+				JOIN `termin` t ON a.ID_Ankieta = t.AnkietaID_Ankieta
+				JOIN `grupaankietowa_termin` tg ON tg.TerminID_Termin = t.ID_Termin
+				JOIN `student_grupaankietowa` sga ON sga.GrupaAnkietowaID_GrupaAnkietowa = tg.GrupaAnkietowaID_GrupaAnkietowa
+				JOIN `zapisy` z ON z.StudentID_Student = sga.StudentID_Student AND z.KursID_Kurs = a.KursID_Kurs
+				WHERE sga.StudentID_Student = ? ";
 
-		array_push($res, $tmp);
+		$query = $this -> db -> query($sql, array($id));
 
-		$tmp = new FormData();
-		$tmp -> course = 'Podstawy programowania';
-		$tmp -> name = 'Ankieta 7';
-		$tmp -> date = '2013-05-14';
-		$tmp -> status = 2;
-		$tmp -> id = '002';
-		$tmp -> title = 'Ocena jakosci ksztalcenia';
-		$tmp -> description = 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety';
+		foreach ($query -> result_array() as $row) {
 
-		array_push($res, $tmp);
+			$tmp = new FormData();
+			$tmp -> course = $row['Kurs'];
+			$tmp -> name = $row['Nazwa'];
+			$tmp -> date = $row['Koniec'];
+			$tmp -> status = $row['Status'];
+			$tmp -> id = $row['ID_Ankieta'];
 
-		$tmp = new FormData();
-		$tmp -> course = 'Statystyka';
-		$tmp -> name = 'Ankieta 3';
-		$tmp -> date = '2013-06-01';
-		$tmp -> status = 1;
-		$tmp -> id = '003';
-		$tmp -> title = 'Ocena jakosci ksztalcenia';
-		$tmp -> description = 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety';
-
-		array_push($res, $tmp);
-
-		$tmp = new FormData();
-		$tmp -> course = 'Grafika komputerowa';
-		$tmp -> name = 'Ankieta 10';
-		$tmp -> date = '2013-06-18';
-		$tmp -> status = 0;
-		$tmp -> id = '004';
-		$tmp -> title = 'Ocena jakosci ksztalcenia';
-		$tmp -> description = 'Bardzo wazny opis przeczytaj przed przystapieniem do wypelniana ankiety';
-
-		array_push($res, $tmp);
+			array_push($res, $tmp);
+		}
 
 		return $res;
 	}
 
 	public function getTestForm($id) {
 
-		foreach ($this -> getTestForms() as $item) {
+		$sql = "SELECT a.ID_Ankieta,s.Nazwa as Status ,a.Temat,a.Nazwa,a.Uwagi,k.Nazwa as Kurs,t.Koniec FROM ankieta a
+				JOIN `status` s ON a.StatusID_Status = s.ID_Status
+				JOIN `kurs` k ON a.KursID_Kurs = k.ID_Kurs
+				JOIN `termin` t ON a.ID_Ankieta = t.AnkietaID_Ankieta
+				WHERE a.ID_Ankieta = ? ";
 
-			if ($item -> id == $id) {
-				return $item;
-			}
+		$query = $this -> db -> query($sql, array($id));
+
+		foreach ($query -> result_array() as $row) {
+
+			$tmp = new FormData();
+			$tmp -> course = $row['Kurs'];
+			$tmp -> name = $row['Nazwa'];
+			$tmp -> date = $row['Koniec'];
+			$tmp -> status = $row['Status'];
+			$tmp -> id = $row['ID_Ankieta'];
+			$tmp -> title = $row['Temat'];
+			$tmp -> description = $row['Uwagi'];
+
+			return $tmp;
 		}
 
-		return $null;
+		return null;
 	}
 
-	public function getTestFormSummary() {
+	public function getTestFormSummary($id_form) {
 
 		$tmp = new FormSummary();
 
@@ -81,7 +76,7 @@ class Form_model extends  CI_Model {
 		$tmp -> open_count = 0;
 		$tmp -> close_count = 0;
 
-		foreach ($this -> getTestFormQustions() as $item) {
+		foreach ($this -> getTestFormQustions($id_form) as $item) {
 
 			switch($item -> type ) {
 				case 0 : {
@@ -98,7 +93,7 @@ class Form_model extends  CI_Model {
 
 	}
 
-	public function getTestFormQustions() {
+	public function getTestFormQustions($id_form) {
 
 		$res = array();
 
@@ -107,142 +102,147 @@ class Form_model extends  CI_Model {
 
 		array_push($res, $tmp);
 
-		$tmp = new FormQuestionData();
-		$tmp -> name = 'Ankieta 1';
-		$tmp -> question = 'Co sadzisz na temat przedmiotu ?';
-		$tmp -> id = '001';
-		$tmp -> type = 1;
+		$sql = "SELECT  p.ID_Pytanie,a.Nazwa,p.Tekst,COUNT(z.ID_Zamkniete) as type
+				FROM ankieta a
+				JOIN `szablonankiety` sz ON a.SzablonAnkietyID_SzablonAnkiety = sz.ID_SzablonAnkiety
+				JOIN `pytanie` p ON sz.ID_SzablonAnkiety = p.SzablonAnkietyID_SzablonAnkiety
+				LEFT JOIN `zamkniete` z ON z.PytanieID_Pytanie = p.ID_Pytanie
+				WHERE a.ID_Ankieta = ?
+				GROUP BY p.ID_Pytanie,a.Nazwa,p.Tekst";
 
-		array_push($res, $tmp);
+		$query = $this -> db -> query($sql, array($id_form));
 
-		$tmp = new FormQuestionData();
-		$tmp -> name = 'Ankieta 2';
-		$tmp -> question = 'Co sadzisz na temat prowadzacego ?';
-		$tmp -> id = '002';
-		$tmp -> type = 1;
+		foreach ($query -> result_array() as $row) {
 
-		array_push($res, $tmp);
+			$tmp = new FormQuestionData();
+			$tmp -> name = $row['Nazwa'];
+			$tmp -> question = $row['Tekst'];
+			$tmp -> id = $row['ID_Pytanie'];
 
-		$tmp = new FormQuestionData();
-		$tmp -> name = 'Ankieta 3';
-		$tmp -> question = 'Co sadzisz na temat zadań ?';
-		$tmp -> id = '003';
-		$tmp -> type = 0;
-
-		array_push($res, $tmp);
-
-		$tmp = new FormQuestionData();
-		$tmp -> name = 'Ankieta 4';
-		$tmp -> question = 'Co sadzisz na temat kolokwium ?';
-		$tmp -> id = '004';
-		$tmp -> type = 0;
-
-		array_push($res, $tmp);
-
-		return $res;
-	}
-
-	public function getTestFormQuestion($id) {
-
-		foreach ($this -> getTestFormQustions() as $item) {
-
-			if ($item -> id == $id) {
-				return $item;
+			if ($row['type'] > 0) {
+				$tmp -> type = 1;
+			} else {
+				$tmp -> type = 0;
 			}
+
+			array_push($res, $tmp);
 		}
 
-		return $null;
+		return $res;
 	}
 
-	public function getTestFormQuestionOpenDetails() {
+	public function getTestFormQuestion($id_form, $id) {
 
-		$res = array();
+		$sql = "SELECT  p.ID_Pytanie,a.Nazwa,p.Tekst,COUNT(z.ID_Zamkniete) as type
+				FROM ankieta a
+				JOIN `szablonankiety` sz ON a.SzablonAnkietyID_SzablonAnkiety = sz.ID_SzablonAnkiety
+				JOIN `pytanie` p ON sz.ID_SzablonAnkiety = p.SzablonAnkietyID_SzablonAnkiety
+				LEFT JOIN `zamkniete` z ON z.PytanieID_Pytanie = p.ID_Pytanie
+				WHERE a.ID_Ankieta = ? AND p.ID_Pytanie = ?
+				GROUP BY p.ID_Pytanie,a.Nazwa,p.Tekst";
+
+		$query = $this -> db -> query($sql, array($id_form, $id));
+
+		foreach ($query -> result_array() as $row) {
+
+			$tmp = new FormQuestionData();
+			$tmp -> name = $row['Nazwa'];
+			$tmp -> question = $row['Tekst'];
+			$tmp -> id = $row['ID_Pytanie'];
+
+			if ($row['type'] > 0) {
+				$tmp -> type = 1;
+			} else {
+				$tmp -> type = 0;
+			}
+
+			return $tmp;
+		}
+
+		return null;
+	}
+
+	public function getTestFormQuestionOpenDetails($id_form, $id) {
 
 		$tmp = new FormQuestionDetailsData();
-		$tmp -> id = "001";
-		$tmp -> text = "";
+		$tmp -> id = $id;
 
-		array_push($res, $tmp);
+		$sql = "SELECT  p.ID_Pytanie, p.Tekst
+				FROM pytanie p
+				WHERE p.ID_Pytanie = ?";
 
-		$tmp = new FormQuestionDetailsData();
-		$tmp -> id = "002";
-		$tmp -> text = "";
+		$query = $this -> db -> query($sql, array($id));
 
-		array_push($res, $tmp);
+		foreach ($query -> result_array() as $row) {
+			$tmp -> text = $row['Tekst'];
+		}
 
-		$tmp = new FormQuestionDetailsData();
-		$tmp -> id = "003";
-		$tmp -> text = "";
-
-		array_push($res, $tmp);
-
-		$tmp = new FormQuestionDetailsData();
-		$tmp -> id = "004";
-		$tmp -> text = "";
-
-		array_push($res, $tmp);
-
-		return $res;
+		return $tmp;
 	}
 
 	public function getTestFormQustionOpenDetail($id) {
 
-		foreach ($this -> getTestFormQuestionOpenDetails() as $item) {
+		// $sql = "SELECT  p.ID_Pytanie, p.Tekst
+		// FROM pytanie p
+		// WHERE p.ID_Pytanie = ?";
+		//
+		// $query = $this -> db -> query($sql, array($id));
+		//
+		// foreach ($query -> result_array() as $row) {
+		//
+		// $tmp = new FormQuestionDetailsData();
+		// $tmp -> id = $row['ID_Pytanie'];
+		// $tmp -> text = $row['Tekst'];
+		//
+		// return $tmp;
+		// }
 
-			if ($item -> id == $id) {
-				return $item;
-			}
-		}
-
-		return $null;
+		return null;
 	}
 
-	public function getTestFormQustionCloseDetails() {
+	public function getTestFormQustionCloseDetails($id_form, $id) {
 
 		$res = array();
 
-		$tmp = array();
+		$sql = "SELECT  z.ID_Zamkniete,oo.Nazwa
+				FROM zamkniete z
+				JOIN `opcjaodpowiedzi` oo ON z.OpcjaOdpowiedziID_OpcjaOdpowiedzi = oo.ID_OpcjaOdpowiedzi 
+				WHERE z.PytanieID_Pytanie = ?";
 
-		$tmpd = new FormQuestionDetailsData();
-		$tmpd -> id = "001";
-		$tmpd -> option = "1";
-		$tmpd -> text = "Odpowiedz 1";
+		$query = $this -> db -> query($sql, array($id));
 
-		array_push($tmp, $tmpd);
+		foreach ($query -> result_array() as $row) {
 
-		$tmpd = new FormQuestionDetailsData();
-		$tmpd -> id = "002";
-		$tmpd -> option = "2";
-		$tmpd -> text = "Odpowiedz 2";
+			$tmp = new FormQuestionDetailsData();
+			$tmp -> id = $row['ID_Zamkniete'];
+			$tmp -> text = $row['Nazwa'];
 
-		array_push($tmp, $tmpd);
-
-		$tmpd = new FormQuestionDetailsData();
-		$tmpd -> id = "003";
-		$tmpd -> option = "3";
-		$tmpd -> text = "Odpowiedz 3";
-
-		array_push($tmp, $tmpd);
-
-		$tmpd = new FormQuestionDetailsData();
-		$tmpd -> id = "004";
-		$tmpd -> option = "3";
-		$tmpd -> text = "Odpowiedz 4";
-
-		array_push($tmp, $tmpd);
-
-		$res['001'] = $tmp;
-		$res['003'] = $tmp;
-		$res['004'] = $tmp;
+			array_push($res, $tmp);
+		}
 
 		return $res;
 	}
 
 	public function getTestFormQustionCloseDetail($id) {
 
-		$res = $this -> getTestFormQustionCloseDetails();
+		// $sql = "SELECT  z.ID_Zamkniete,oo.Nazwa,oo.ID_OpcjaOdpowiedzi
+		// FROM zamkniete z
+		// JOIN `opcjaodpowiedzi` oo ON z.ID_Zamkniete = oo.ID_OpcjaOdpowiedzi
+		// WHERE z.ID_Zamkniete = ?";
+		//
+		// $query = $this -> db -> query($sql, array($id));
+		//
+		// foreach ($query -> result_array() as $row) {
+		//
+		// $tmp = new FormQuestionDetailsData();
+		// $tmp -> id = $row['ID_Zamkniete'];
+		// $tmp -> option = $row['ID_OpcjaOdpowiedzi'];
+		// $tmp -> text = $row['Nazwa'];
+		//
+		// return $tmp;
+		// }
 
-		return $res[$id];
+		return null;
 	}
 
 }
